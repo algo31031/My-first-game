@@ -1,0 +1,59 @@
+audio_play_sound(snd_power, 1, false);
+
+global.player_score += 20;
+
+switch(image_index){
+	case brick_powers.extend:		
+		with(obj_paddle){
+			image_xscale = 2;
+			alarm[0] = 8*room_speed;
+		}
+		break;
+		
+	case brick_powers.slow:
+		with(obj_ball){
+			speed = spd - 0.5;
+			alarm[0] = 8*room_speed;
+		}
+		break;
+		
+	case brick_powers.clone:
+		var _ball = instance_create_layer(xstart, ystart, "Instances", obj_ball);
+		with(_ball){
+			is_extra = true;
+			is_flying = true
+			direction = irandom_range(45, 135);
+			speed = spd;
+			image_index = 1;
+		}
+		break;
+		
+	case brick_powers.cannon:
+		instance_deactivate_object(obj_ball);
+		instance_deactivate_object(obj_paddle);
+		instance_deactivate_object(obj_brick_power);
+		
+		instance_create_layer(other.x, other.y-sprite_get_width(spr_cannon_turret)/2, "Instances", obj_cannon);
+		
+		break;
+		
+	case brick_powers.weaken:
+		for (var i = 0; i < instance_number(obj_brick); i++;) {
+			var _brick = instance_find(obj_brick,i);
+			with(_brick){
+				if(HP >= 5 or HP == 1){
+					continue;
+				}				
+				temp_HP = HP;
+				HP = 1;
+			}
+		}
+		
+		obj_game.alarm[1] = 5*room_speed;
+		
+		break;
+	
+	case brick_powers.pet:
+}
+
+instance_destroy();
