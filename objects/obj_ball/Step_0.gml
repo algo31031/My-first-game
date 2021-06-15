@@ -7,5 +7,5 @@ if(!is_flying){
 
 // To avoid the ball forever moving horizontally
 if(direction == 0 or direction == 180){
-	direction += 5;
+	direction += 15;
 }

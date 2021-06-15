@@ -27,3 +27,5 @@ if(bbox_bottom > room_height){
 	
 	if(lives <= 0) global.gameover = true;
 }
+
+speed_up();

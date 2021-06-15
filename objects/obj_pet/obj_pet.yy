@@ -25,7 +25,7 @@
     "path": "folders/Objects/pets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pets",
+  "name": "obj_pet",
   "tags": [],
   "resourceType": "GMObject",
 }
