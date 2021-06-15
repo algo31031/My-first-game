@@ -3,6 +3,8 @@ global.camY = 0;
 global.cam_width = 1280;
 global.cam_height = 736;
 
+global.cam_shake = 0;
+
 
 
 

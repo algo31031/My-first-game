@@ -53,7 +53,21 @@ switch(image_index){
 		
 		break;
 	
-	case brick_powers.pet:
+	case brick_powers.UFO:
+		var _ufo = instance_create_layer(x, y, "Instances", obj_alien);
+		with(_ufo){
+			if(irandom(1) == 0){
+				x = -160;
+				direction = 0;
+			} else {
+				x = room_width + 160;
+				direction = 180;
+			}
+			y = irandom(3) > 1 ? room_height/4 : room_height/4*3;			
+		}
+		
+		break;
+	
 }
 
 instance_destroy();
