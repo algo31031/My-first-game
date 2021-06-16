@@ -63,7 +63,7 @@ switch(image_index){
 				x = room_width + 160;
 				direction = 180;
 			}
-			y = irandom(3) > 1 ? room_height/4 : room_height/4*3;			
+			y = irandom_range(room_height/4, room_height*0.75);			
 		}
 		
 		break;
