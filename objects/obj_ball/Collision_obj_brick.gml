@@ -4,4 +4,5 @@ audio_play_sound(snd_hit_brick, 1, false);
 with(other){
 	HP -= 1;
 	sprite_index = spr_brick;
+	generate_brick_power();
 }

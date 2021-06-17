@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "brick level",
+    "path": "folders/Sprites/brick level.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_alien_bullet",

@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": true,
+  "precision": 4,
+  "points": [
+    {"speed":50.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":0.0,"y":32.0,},
+    {"speed":200.0,"x":32.0,"y":64.0,},
+    {"speed":150.0,"x":-128.0,"y":64.0,},
+    {"speed":50.0,"x":-96.0,"y":32.0,},
+    {"speed":100.0,"x":-96.0,"y":0.0,},
+    {"speed":100.0,"x":-64.0,"y":-32.0,},
+    {"speed":100.0,"x":-32.0,"y":32.0,},
+    {"speed":100.0,"x":-64.0,"y":32.0,},
+    {"speed":100.0,"x":-32.0,"y":-32.0,},
+  ],
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_brick_boss_fall",
+  "tags": [],
+  "resourceType": "GMPath",
+}

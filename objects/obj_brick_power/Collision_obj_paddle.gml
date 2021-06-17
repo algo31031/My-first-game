@@ -54,16 +54,27 @@ switch(image_index){
 		break;
 	
 	case brick_powers.UFO:
-		var _ufo = instance_create_layer(x, y, "Instances", obj_alien);
-		with(_ufo){
-			if(irandom(1) == 0){
-				x = -160;
-				direction = 0;
-			} else {
-				x = room_width + 160;
-				direction = 180;
+		//var _ufo = instance_create_layer(x, y, "Instances", obj_alien);
+		//with(_ufo){
+		//	if(irandom(1) == 0){
+		//		x = -160;
+		//		direction = 0;
+		//	} else {
+		//		x = room_width + 160;
+		//		direction = 180;
+		//	}
+		//	y = irandom_range(room_height/4, room_height*0.75);			
+		//}
+		for (var i = 0; i < instance_number(obj_ball); i++;) {
+			var _ball = instance_find(obj_ball,i);
+			with(_ball){
+				if(is_extra){
+					continue;
+				}
+				is_flying = true;
+				is_UFO = true;
+				alarm[1] = 3*room_speed;
 			}
-			y = irandom_range(room_height/4, room_height*0.75);			
 		}
 		
 		break;

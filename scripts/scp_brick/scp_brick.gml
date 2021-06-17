@@ -15,7 +15,7 @@ function speed_up(){
 
 function generate_brick_power(){
 	if(instance_exists(obj_cannon)) exit;
-	if(irandom_range(0, 5) > 0) exit;
+	if(irandom_range(0, 9) > 0) exit;
 		
 	var _power = instance_create_layer(x, y, "Instances", obj_brick_power);
 	_power.image_index = choose(brick_powers.extend, brick_powers.weaken,
@@ -23,7 +23,7 @@ function generate_brick_power(){
 	//_power.image_index = brick_powers.UFO;
 }
 
-///@desc Used by obj_alien
+///@desc Used by obj_alien and brick level boss
 function shoot_the_ball(){
 	if(!instance_exists(obj_ball)) exit;
 	audio_play_sound(snd_alien_shoot, 2, false);
@@ -33,3 +33,4 @@ function shoot_the_ball(){
 		image_angle = direction - 90;
 	}
 }
+

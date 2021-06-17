@@ -3,5 +3,3 @@ speed = 3;
 
 //move_distance = 200;
 alarm[0] = 2*room_speed;
-
-sound_id = audio_play_sound(snd_alien_fly, 1, false);

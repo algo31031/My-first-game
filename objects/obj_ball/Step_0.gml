@@ -5,6 +5,19 @@ if(!is_flying){
 	exit;
 }
 
+if(is_UFO){
+	speed = 0;
+	if(keyboard_check(vk_left)) x -= 0.5;
+	if(keyboard_check(vk_right)) x += 0.5;
+	if(keyboard_check(vk_up)) y -= 0.5;
+	if(keyboard_check(vk_down)) y += 0.5;
+	
+	x = clamp(x, sprite_xoffset, room_width-sprite_xoffset);
+	y = clamp(y, sprite_yoffset, room_height-sprite_yoffset);
+	
+	exit;
+}
+
 // To avoid the ball forever moving horizontally
 if(direction == 0 or direction == 180){
 	direction += 15;
