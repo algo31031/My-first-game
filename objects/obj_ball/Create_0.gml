@@ -5,4 +5,4 @@ is_extra = false;
 is_UFO = false;
 spd = 3;
 max_spd = 7;
-extra_ball_hits_left = 5;
+extra_ball_hits_left = 9;

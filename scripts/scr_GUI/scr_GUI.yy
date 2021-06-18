@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_pet",
+  "name": "scr_GUI",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_brick",
+  "name": "scr_brick",
   "tags": [],
   "resourceType": "GMScript",
 }

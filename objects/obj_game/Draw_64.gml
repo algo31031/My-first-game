@@ -8,7 +8,7 @@ switch(room){
 		draw_set_halign(fa_left);	
 		
 		break;
-	case rm_brick_init:
+	default:
 		draw_scores();
 		
 		var _x = 24;
