@@ -15,6 +15,8 @@ if(is_UFO){
 	x = clamp(x, sprite_xoffset, room_width-sprite_xoffset);
 	y = clamp(y, sprite_yoffset, room_height-sprite_yoffset);
 	
+	part_particles_create(obj_particles.part_sys,x-sprite_xoffset,y,obj_particles.part_type_exhaust,1);
+	
 	exit;
 }
 

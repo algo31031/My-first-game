@@ -1,6 +1,5 @@
-if(global.player_score > global.high_score){
-	global.high_score = global.player_score;
-}	
+if(global.player_score > global.high_score) global.high_score = global.player_score;	
+if(global.brick_power_cd > 0) global.brick_power_cd -= 1;
 
 switch(room){				
 	case rm_start:	

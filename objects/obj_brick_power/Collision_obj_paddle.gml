@@ -21,10 +21,8 @@ switch(image_index){
 		var _ball = instance_create_layer(xstart, ystart, "Instances", obj_ball);
 		with(_ball){
 			is_extra = true;
-			is_flying = true
-			direction = irandom_range(45, 135);
-			speed = spd;
 			image_index = 1;
+			alarm[2] = 8*room_speed;
 		}
 		break;
 		
@@ -73,7 +71,11 @@ switch(image_index){
 				}
 				is_flying = true;
 				is_UFO = true;
-				alarm[1] = 3*room_speed;
+				alarm[1] = 5*room_speed;
+			}
+			with(obj_paddle){	
+				pause = true;
+				alarm[1] = 5*room_speed;
 			}
 		}
 		

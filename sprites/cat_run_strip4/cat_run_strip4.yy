@@ -41,7 +41,7 @@
     "spriteId": {"name":"cat_run_strip4","path":"sprites/cat_run_strip4/cat_run_strip4.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

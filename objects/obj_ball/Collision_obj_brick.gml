@@ -6,3 +6,8 @@ with(other){
 	sprite_index = spr_brick;
 	generate_brick_power();
 }
+
+if(is_extra){
+	extra_ball_hits_left -= 1;
+	if(extra_ball_hits_left <= 0) instance_destroy();
+}

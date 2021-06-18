@@ -1,5 +1,5 @@
 // Collision
-if((bbox_left < 0 and !global.space_level)or bbox_right > room_width){
+if(bbox_left < 0 or (bbox_right > room_width and !global.space_level)){
 	audio_play_sound(snd_hit_wall, 1, false);
 	x = clamp(x, sprite_xoffset, room_width - sprite_xoffset);
 	hspeed *= -1;
@@ -31,6 +31,6 @@ if(bbox_top <= 0){
 } 
 
 // Goto space level
-if(bbox_left < 0 and global.space_level){
+if(bbox_right > room_width and global.space_level){
 	room_goto(rm_space);
 }
