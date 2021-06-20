@@ -16,10 +16,10 @@ function speed_up(){
 function generate_brick_power(){
 	if(instance_exists(obj_cannon)) exit;
 	if(global.brick_power_cd > 0) exit;
-	if(irandom_range(0, 9) > 0) exit;
+	if(irandom_range(0, 7) > 0) exit;
 	
 	global.brick_power_cd = 1*room_speed;
-	var _power = instance_create_layer(x, y, "Instances", obj_brick_power);
+	var _power = instance_create_layer(x, y, "Powers", obj_brick_power);
 	_power.image_index = choose(brick_powers.extend, brick_powers.weaken,
 		brick_powers.slow, brick_powers.cannon, brick_powers.clone, brick_powers.UFO);
 	//_power.image_index = brick_powers.UFO;

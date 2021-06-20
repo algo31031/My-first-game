@@ -1,9 +1,10 @@
+///@desc set moveable
 path_end();
 
 moveable = true;
-speed = 1;
+speed = 2;
 direction = 0;
 
 with(obj_camera){
-	if(!h_move) h_move = 1;
+	if(!global.h_move) global.h_move = 2;
 }

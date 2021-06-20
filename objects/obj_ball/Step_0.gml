@@ -7,15 +7,15 @@ if(!is_flying){
 
 if(is_UFO){
 	speed = 0;
-	if(keyboard_check(vk_left)) x -= 0.5;
-	if(keyboard_check(vk_right)) x += 0.5;
-	if(keyboard_check(vk_up)) y -= 0.5;
-	if(keyboard_check(vk_down)) y += 0.5;
+	if(keyboard_check(vk_left)) x -= 0.75;
+	if(keyboard_check(vk_right)) x += 0.75;
+	if(keyboard_check(vk_up)) y -= 0.75;
+	if(keyboard_check(vk_down)) y += 0.75;
 	
 	x = clamp(x, sprite_xoffset, room_width-sprite_xoffset);
 	y = clamp(y, sprite_yoffset, room_height-sprite_yoffset);
 	
-	part_particles_create(obj_particles.part_sys,x-sprite_xoffset,y,obj_particles.part_type_exhaust,1);
+	part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_spark,1);
 	
 	exit;
 }

@@ -27,6 +27,12 @@
     {"compositeImage":{"FrameId":{"name":"d67fb558-273d-489e-9115-a3fbbb9d73c5","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"d67fb558-273d-489e-9115-a3fbbb9d73c5","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"LayerId":{"name":"96debbdc-e181-4c27-bdb9-5867b5eb1486","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_spaceMissiles_040","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","name":"d67fb558-273d-489e-9115-a3fbbb9d73c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f8c5268-43ba-47ce-92c3-ece3a3c2b373","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f8c5268-43ba-47ce-92c3-ece3a3c2b373","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"LayerId":{"name":"96debbdc-e181-4c27-bdb9-5867b5eb1486","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_spaceMissiles_040","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","name":"0f8c5268-43ba-47ce-92c3-ece3a3c2b373","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"198350d9-c94a-4dda-addd-9485742f45ba","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"198350d9-c94a-4dda-addd-9485742f45ba","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"LayerId":{"name":"96debbdc-e181-4c27-bdb9-5867b5eb1486","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_spaceMissiles_040","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","name":"198350d9-c94a-4dda-addd-9485742f45ba","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_spaceMissiles_040","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},
@@ -36,12 +42,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"21e5ce59-5f92-4c99-9c9a-8c2bf1218467","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d67fb558-273d-489e-9115-a3fbbb9d73c5","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f84fdd75-71ad-4d8d-8d16-acea797b7776","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f8c5268-43ba-47ce-92c3-ece3a3c2b373","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"550936b2-1d4b-4116-9b77-2c25fee035e2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"198350d9-c94a-4dda-addd-9485742f45ba","path":"sprites/spr_spaceMissiles_040/spr_spaceMissiles_040.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -69,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "space level",
+    "path": "folders/Sprites/space level.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_spaceMissiles_040",

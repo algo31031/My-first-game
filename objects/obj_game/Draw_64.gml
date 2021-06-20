@@ -8,7 +8,8 @@ switch(room){
 		draw_set_halign(fa_left);	
 		
 		break;
-	default:
+	
+	case rm_brick_init:
 		draw_scores();
 		
 		var _x = 24;
@@ -18,4 +19,41 @@ switch(room){
 		}		
 		
 		break;
+		
+	case rm_space:
+		draw_scores();
+		
+		var _bullet = bullets.laser;
+		var _index = 0;
+		if(instance_exists(obj_space_char)){
+			with(obj_space_char){
+				_bullet = bullet;
+				_index = bullet_damage - 1;
+			}
+		}
+		
+		var _x1 = 16+sprite_get_yoffset(spr_laser);
+		var _x2 = 32+sprite_get_height(spr_laser)+sprite_get_yoffset(spr_spaceMissiles_040);
+		
+		switch(_bullet){
+			case bullets.laser:
+				draw_sprite_ext(spr_laser, _index, _x1, 88,1,1,-90,c_white,1);
+				draw_sprite_ext(spr_spaceMissiles_040, _index, _x2, 88,1,1,-90,c_white,0.25);
+				draw_sprite(spr_number_2, 0, _x2, 120);
+				
+				break;
+			case bullets.missile:
+				draw_sprite_ext(spr_laser, _index, _x1, 88,1,1,-90,c_white,0.25);
+				draw_sprite_ext(spr_spaceMissiles_040, _index, _x2, 88,1,1,-90,c_white,1);
+				draw_sprite(spr_number_1, 0, _x1, 120);
+				
+				break;
+		}
+
+		
+		break;
+		
+	default:
+		draw_scores();
+	
 }

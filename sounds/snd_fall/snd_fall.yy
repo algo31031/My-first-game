@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_fall.ogg",
-  "duration": 0.428855,
+  "duration": 1.094025,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

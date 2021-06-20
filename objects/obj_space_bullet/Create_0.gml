@@ -1,7 +1,7 @@
 faction = factions.neutral;
+bullet_damage = 1;
 
-speed = 21;
 direction = 0;
 image_angle = direction - 90;
-
-audio_play_sound(snd_alien_shoot, 5, false);
+image_speed = 0;
+image_index = bullet_damage - 1;
