@@ -9,17 +9,6 @@ switch(room){
 		
 		break;
 	
-	case rm_brick_init:
-		draw_scores();
-		
-		var _x = 24;
-		repeat(lives){
-			draw_sprite_ext(spr_ball, 0, _x, 88, 0.75, 0.75, 0, c_white, 0.75);
-			_x += 16;
-		}		
-		
-		break;
-		
 	case rm_space:
 		draw_scores();
 		
@@ -34,26 +23,30 @@ switch(room){
 		
 		var _x1 = 16+sprite_get_yoffset(spr_laser);
 		var _x2 = 32+sprite_get_height(spr_laser)+sprite_get_yoffset(spr_spaceMissiles_040);
+		var _shake = irandom_range(-1,1);
 		
 		switch(_bullet){
 			case bullets.laser:
-				draw_sprite_ext(spr_laser, _index, _x1, 88,1,1,-90,c_white,1);
-				draw_sprite_ext(spr_spaceMissiles_040, _index, _x2, 88,1,1,-90,c_white,0.25);
-				draw_sprite(spr_number_2, 0, _x2, 120);
+				draw_sprite_ext(spr_laser, _index, _x1, room_height-72,1,1,-90,c_white,1);
+				draw_sprite_ext(spr_spaceMissiles_040, _index, _x2, room_height-72,1,1,-90,c_white,0.25);
+				draw_sprite(spr_number_2, 0, _x2+_shake, room_height-108-_shake);
 				
 				break;
 			case bullets.missile:
-				draw_sprite_ext(spr_laser, _index, _x1, 88,1,1,-90,c_white,0.25);
-				draw_sprite_ext(spr_spaceMissiles_040, _index, _x2, 88,1,1,-90,c_white,1);
-				draw_sprite(spr_number_1, 0, _x1, 120);
+				draw_sprite_ext(spr_laser, _index, _x1, room_height-72,1,1,-90,c_white,0.25);
+				draw_sprite_ext(spr_spaceMissiles_040, _index, _x2, room_height-72,1,1,-90,c_white,1);
+				draw_sprite(spr_number_1, 0, _x1+_shake, room_height-108-_shake);
 				
 				break;
 		}
-
-		
-		break;
 		
 	default:
 		draw_scores();
+		
+		var _x = 24;
+		repeat(lives){
+			draw_sprite_ext(spr_ball, 0, _x, 88, 0.75, 0.75, 0, c_white, 0.75);
+			_x += 16;
+		}		
 	
 }

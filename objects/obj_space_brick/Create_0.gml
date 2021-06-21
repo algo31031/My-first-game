@@ -1,8 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
-HP = 10;
+HP = 5;
 point = 15;
+max_HP = HP;
+bullet_damage = 0; // to tell if the brick can shoot
+jet = 0; // to tell if the brick can fly and its speed
 
-image_speed = 0;
 direction = 180;

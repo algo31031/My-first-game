@@ -1,6 +1,11 @@
 ///@desc take damage
+if(invincible){
+	take_damage = 0;
+	exit;
+}
 
 shield_restroe = 5*room_speed;
+part_particles_create(obj_particles.part_sys, x+sprite_xoffset, other.y, obj_particles.part_type_hit_char, 1);
 
 if(shield){
 	audio_play_sound(snd_forceField_000, 5, false);
@@ -21,6 +26,11 @@ if(!shield and take_damage){
 	else {
 		audio_play_sound(snd_space_die2, 5, false);
 		instance_destroy();
-		instance_create_layer(global.cam_x, y = room_height/2, "Instances", obj_space_char);
+		lives -= 1;
+		if(lives > 0){
+			instance_create_layer(global.cam_x+sprite_xoffset, room_height/2, "Instances", obj_space_char);
+		} else {
+			global.cam_x = 0;
+		}
 	}
 }

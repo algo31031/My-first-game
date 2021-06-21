@@ -1,3 +1,5 @@
+image_index = HP - 1;
+
 draw_self();
 
 if(shield > 0){

@@ -1,7 +1,6 @@
-///@desc set moveable
+///@desc path_end
 path_end();
 
-moveable = true;
 speed = 2;
 direction = 0;
 

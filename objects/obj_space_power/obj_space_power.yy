@@ -1,13 +1,13 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_space_power",
+    "path": "sprites/spr_space_power/spr_space_power.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_nuetral",
-    "path": "objects/obj_nuetral/obj_nuetral.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "nuetral",
-    "path": "folders/Objects/space level/nuetral.yy",
+    "name": "space level",
+    "path": "folders/Objects/space level.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_space_meteor",
+  "name": "obj_space_power",
   "tags": [],
   "resourceType": "GMObject",
 }
