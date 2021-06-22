@@ -111,7 +111,7 @@
     {"id":{"name":"spr_spaceEffects_017","path":"sprites/spr_spaceEffects_017/spr_spaceEffects_017.yy",},"order":9,},
     {"id":{"name":"spr_alien_pink","path":"sprites/spr_alien_pink/spr_alien_pink.yy",},"order":4,},
     {"id":{"name":"path_brick_boss","path":"paths/path_brick_boss/path_brick_boss.yy",},"order":0,},
-    {"id":{"name":"rm_jump_up","path":"rooms/rm_jump_up/rm_jump_up.yy",},"order":2,},
+    {"id":{"name":"rm_platform","path":"rooms/rm_platform/rm_platform.yy",},"order":2,},
     {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},"order":10,},
     {"id":{"name":"emote_drops","path":"sprites/emote_drops/emote_drops.yy",},"order":12,},
     {"id":{"name":"obj_cannonball","path":"objects/obj_cannonball/obj_cannonball.yy",},"order":5,},
@@ -224,7 +224,7 @@
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_brick_init","path":"rooms/rm_brick_init/rm_brick_init.yy",},},
     {"roomId":{"name":"rm_space","path":"rooms/rm_space/rm_space.yy",},},
-    {"roomId":{"name":"rm_jump_up","path":"rooms/rm_jump_up/rm_jump_up.yy",},},
+    {"roomId":{"name":"rm_platform","path":"rooms/rm_platform/rm_platform.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
   ],
   "Folders": [

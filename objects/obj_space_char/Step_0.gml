@@ -1,4 +1,10 @@
 event_inherited();
+if(global.platform_level){
+	direction = point_direction(x, y, room_width, room_height/2);
+	speed = move_spd;
+	exit;
+}
+
 // camera controll
 if((global.cam_x + global.cam_width) >= room_width){
 	speed = 0;
@@ -25,4 +31,10 @@ if(shield < max_shield and !shield_restroe){
 	audio_play_sound(snd_shield_restore, 2, false);
 	
 	if(shield < max_shield) shield_restroe = 5*room_speed;
+}
+
+// secondary weapon cooldown
+if(s_cooldown){
+	s_cooldown--;
+	if(s_cooldown < 0) s_cooldown = 0;
 }

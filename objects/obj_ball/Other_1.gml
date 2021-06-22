@@ -23,8 +23,9 @@ if(bbox_top <= 0){
 	if(is_extra){
 		instance_destroy();
 	} else {
-		global.jump_up_level = true;
-		room_goto(rm_jump_up);
+		audio_play_sound(snd_hit_wall, 1, false);
+		y = clamp(y, sprite_yoffset, room_height - sprite_yoffset);				
+		vspeed *= -1;
 	}
 } 
 
