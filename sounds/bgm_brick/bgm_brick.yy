@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bmg_space.ogg",
-  "duration": 26.1378117,
+  "soundFile": "bgm_brick.ogg",
+  "duration": 15.3173809,
   "parent": {
     "name": "bgm",
     "path": "folders/Sounds/bgm.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bmg_space",
+  "name": "bgm_brick",
   "tags": [],
   "resourceType": "GMSound",
 }

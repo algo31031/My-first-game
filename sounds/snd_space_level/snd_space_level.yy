@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.5,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bmg_brick.ogg",
-  "duration": 15.3173809,
+  "soundFile": "snd_space_level.ogg",
+  "duration": 0.886134,
   "parent": {
-    "name": "bgm",
-    "path": "folders/Sounds/bgm.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bmg_brick",
+  "name": "snd_space_level",
   "tags": [],
   "resourceType": "GMSound",
 }
