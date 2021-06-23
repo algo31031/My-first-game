@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cat",
-    "path": "folders/Sprites/cat.yy",
+    "path": "folders/Sprites/platform level/cat.yy",
   },
   "resourceVersion": "1.0",
   "name": "cat_hurt_strip4",

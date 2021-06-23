@@ -94,7 +94,7 @@
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/dog.yy",
+    "path": "folders/Sprites/platform level/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_attack_strip7",

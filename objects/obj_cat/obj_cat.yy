@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "pets",
-    "path": "folders/Objects/pets.yy",
+    "path": "folders/Objects/platform level/pets.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cat",

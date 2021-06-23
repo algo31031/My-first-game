@@ -2,6 +2,7 @@
 event_inherited();
 
 var _power = instance_create_layer(x,y,"Instances",obj_space_power);
+_power.alarm[0] = 6*room_speed;
 if(instance_exists(obj_space_char)){  
 	with(obj_space_char){
 		if(HP < 2) _power.image_index = space_powers.hp;

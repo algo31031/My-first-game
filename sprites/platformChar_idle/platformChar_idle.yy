@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "char",
-    "path": "folders/Sprites/char.yy",
+    "path": "folders/Sprites/platform level/char.yy",
   },
   "resourceVersion": "1.0",
   "name": "platformChar_idle",

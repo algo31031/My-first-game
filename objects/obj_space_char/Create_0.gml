@@ -22,8 +22,6 @@ y = room_height/2;
 image_speed = 0;
 image_index = 2;
 image_alpha = 0.35;
+speed = 2;
 
-
-path_start(path_space_enter, 4, path_action_stop, false);
-alarm[0] = 80;
 alarm[1] = 3*room_speed;
