@@ -22,7 +22,6 @@ switch(image_index){
 		with(_ball){
 			is_extra = true;
 			image_index = 1;
-			//alarm[2] = 8*room_speed;
 		}
 		break;
 		

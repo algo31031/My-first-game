@@ -251,7 +251,7 @@
     {"folderPath":"folders/Sprites/not attached.yy","order":0,"resourceVersion":"1.0","name":"not attached","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/platform level/cat.yy","order":2,"resourceVersion":"1.0","name":"cat","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/platform level/dog.yy","order":4,"resourceVersion":"1.0","name":"dog","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/bricks.yy","order":16,"resourceVersion":"1.0","name":"bricks","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/brick level/bricks.yy","order":9,"resourceVersion":"1.0","name":"bricks","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/platform level/pets.yy","order":0,"resourceVersion":"1.0","name":"pets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/brick level.yy","order":22,"resourceVersion":"1.0","name":"brick level","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/space level.yy","order":23,"resourceVersion":"1.0","name":"space level","tags":[],"resourceType":"GMFolder",},
