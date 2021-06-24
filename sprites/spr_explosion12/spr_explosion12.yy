@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "space level",
-    "path": "folders/Sprites/space level.yy",
+    "name": "brick level",
+    "path": "folders/Sprites/brick level.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_explosion12",
