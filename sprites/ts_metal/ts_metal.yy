@@ -8,7 +8,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 349,
+  "bbox_right": 424,
   "bbox_top": 0,
   "bbox_bottom": 489,
   "HTile": false,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 70,
+  "gridY": 70,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4da4951a-fc3f-415a-bab5-a470a8999f50","path":"sprites/ts_metal/ts_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4da4951a-fc3f-415a-bab5-a470a8999f50","path":"sprites/ts_metal/ts_metal.yy",},"LayerId":{"name":"7b1e1daa-28f2-446a-b792-f01d21afde46","path":"sprites/ts_metal/ts_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

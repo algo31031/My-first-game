@@ -26,25 +26,21 @@ switch(room){
 		}
 		
 		break;
-	case rm_platform:
-	
+
 	case rm_space:
 		if(!global.space_boss and (global.cam_x+global.cam_width) >= room_width){
 			global.space_boss = true;
-			alarm[2] = 10*room_speed;
+			obj_space_boss.alarm[0] = 10*room_speed;
 		}
 		
-		if(global.space_boss and !instance_exists(obj_space_brick4)){
+		if(global.space_boss and obj_space_boss.HP <= 0){
 			audio_stop_sound(bgm_space);
 			if(!global.platform_level) audio_play_sound(snd_space_level, 1, false);
 			global.platform_level = true;
-			
-			for (var i = 0; i < instance_number(obj_space_brick); ++i;){
-			    var _brick = instance_find(obj_space_brick,i);
-				part_particles_create(obj_particles.part_sys, _brick.x, _brick.y, obj_particles.part_type_hit_char, 1);
-				instance_deactivate_object(_brick);
-			}
-			instance_deactivate_object(obj_space_bullet);
-			alarm[2] = -1;
-		}	
+		}
+		
+		break;
+		
+	case rm_platform:
+		break;		
 }

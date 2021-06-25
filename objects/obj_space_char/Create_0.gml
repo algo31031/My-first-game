@@ -17,11 +17,19 @@ shield_restroe = 0;
 move_spd = 3;
 
 
+
 x = global.cam_x + sprite_xoffset/2;
 y = room_height/2;
+image_alpha = 0.35;
 image_speed = 0;
 image_index = 2;
-image_alpha = 0.35;
 speed = 2;
-
 alarm[1] = 3*room_speed;
+
+if(room == rm_platform){
+	shield = 0;
+	HP = 1;
+	y = room_height - 324;
+	image_alpha = 1;
+	alarm[1] = -1;
+}

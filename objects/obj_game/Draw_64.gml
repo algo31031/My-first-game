@@ -1,9 +1,9 @@
 switch(room){
 	case rm_start:
 		draw_set_halign(fa_center);	
-		draw_text_transformed_color(room_width/2, 200, "GAME Start",4, 4, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
-		draw_text_transformed_color(room_width/2, 400,  "Left and Right to control the paddle", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
-		draw_text_transformed_color(room_width/2, 500,  "Space To Fire the Ball", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
+		draw_text_transformed_color(room_width/2, 200, "Crouching Tiger",4, 4, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
+		draw_text_transformed_color(room_width/2, 400,  "Direction Key to control movement", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
+		draw_text_transformed_color(room_width/2, 500,  "Space Key To shoot", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
 		draw_text_transformed_color(room_width/2, 600,  ">> Press SPACE To Start <<", 2, 2, 0, c_white, c_white, c_white, c_white, 1);	
 		draw_set_halign(fa_left);	
 		

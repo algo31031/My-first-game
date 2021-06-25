@@ -26,8 +26,8 @@ switch(other.image_index){
 		alarm[1] = 3*room_speed;
 		exit;
 	case space_powers.speed:
-		move_spd = 6;
-		alarm[2] = 10*room_speed;
+		gunslinger = true;
+		alarm[2] = 8*room_speed;
 		exit;
 }
 

@@ -1,5 +1,6 @@
 // Inherit the parent event
-event_inherited();
+global.player_score += point;
+global.bricks_counter.yellow += 1;
 
 var _power = instance_create_layer(x,y,"Instances",obj_space_power);
 _power.alarm[0] = 6*room_speed;

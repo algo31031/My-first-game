@@ -1,1 +1,1 @@
-if((x + sprite_xoffset) > room_width) room_goto(rm_platform);
+if(x  > room_width) room_goto(rm_platform);

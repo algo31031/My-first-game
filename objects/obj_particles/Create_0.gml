@@ -41,6 +41,7 @@ part_type_life(part_type_jet, 10, 10);
 
 part_type_smoke = part_type_create();
 part_type_shape(part_type_smoke, pt_shape_smoke);
-part_type_size(part_type_smoke, 0.20, 0.3, 0.02, 0.05);
+part_type_size(part_type_smoke, 0.2, 0.3, 0.02, 0.05);
 part_type_life(part_type_smoke, 8, 8);
-part_type_alpha2(part_type_smoke, 0.75, 0.5);
+part_type_alpha3(part_type_smoke, 1, 0.75, 0.5);
+part_type_color3(part_type_spark, c_orange, c_silver, c_gray);

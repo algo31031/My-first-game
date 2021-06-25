@@ -1,2 +1,2 @@
-///@desc restore move speed
-move_spd = 3;
+///@desc gunslinger finished
+gunslinger = false;

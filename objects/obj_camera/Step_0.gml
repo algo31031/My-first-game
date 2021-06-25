@@ -15,7 +15,7 @@ global.cam_x += random_range(-global.cam_shake, global.cam_shake);
 global.cam_y += random_range(-global.cam_shake, global.cam_shake);
 
 if(global.cam_shake > 0){
-	global.cam_shake -= 0.2;
+	global.cam_shake -= 0.1;
 	if(global.cam_shake < 0) global.cam_shake = 0;
 }
 
