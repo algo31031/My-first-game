@@ -7,15 +7,15 @@ repeat(10){
 }
 
 _y = 128;
-repeat(6){
-	var _brick = instance_create_layer(room_width-256, _y, "Instances", obj_space_brick3);
+repeat(5){
+	var _brick = instance_create_layer(room_width-288, _y, "Instances", obj_space_brick3);
 	_brick.speed = 1;
 	_y += 128;
 }
 
 _y = 168;
 repeat(4){
-	var _brick = instance_create_layer(room_width-128, _y, "Instances", obj_space_brick1);
+	var _brick = instance_create_layer(room_width-192, _y, "Instances", obj_space_brick1);
 	_brick.speed = 1;
 	_y += 96;
 }
