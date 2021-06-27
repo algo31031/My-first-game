@@ -15,6 +15,7 @@ global.brick_boss = false;
 global.space_level = false;
 global.space_boss = false;
 global.platform_level = false;
+global.platform_boss = false;
 global.final_level = false;
 
 // global cooldown

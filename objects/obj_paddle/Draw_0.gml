@@ -1,3 +1,3 @@
-if(pause) image_index = 1;
+image_index = pause;
 
 draw_self();

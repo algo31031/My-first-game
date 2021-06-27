@@ -5,9 +5,18 @@
 //	global.cam_x = clamp(global.cam_x, 0, room_width - global.cam_width);
 //	global.cam_y = clamp(global.cam_y, 0, room_height - global.cam_height);
 //}
-// scroll camera 
+// scroll camera: move right
 if(global.h_move and (global.cam_width + global.cam_x) < room_width){
 	global.cam_x += global.h_move;
+}
+// scroll camera: move up
+if(global.v_move){
+	if(global.cam_y > global.v_move_max){
+		global.cam_y -= global.v_move;
+	} else {
+		global.cam_y = global.v_move_max;
+		global.v_move= 0;
+	}
 }
 
 // shake camera
@@ -28,4 +37,5 @@ camera_set_view_pos(view_camera[0], global.cam_x, global.cam_y);
 // parallax
 layer_x("Parallax", global.cam_x*0.75);
 layer_x("Parallax1", global.cam_x*0.9);
-
+layer_y("Parallax", global.cam_y*0.75);
+layer_y("Parallax1", global.cam_y*0.9);

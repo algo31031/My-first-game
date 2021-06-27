@@ -1,0 +1,1 @@
+shield_regeneration(20*room_speed);

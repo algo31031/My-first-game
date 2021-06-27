@@ -29,7 +29,7 @@ function generate_brick_power(){
 function shoot_the_ball(){
 	if(!instance_exists(obj_ball)) exit;
 	audio_play_sound(snd_alien_shoot, 2, false);
-	var _bullet = instance_create_layer(x, y, "Instances", obj_bullet);
+	var _bullet = instance_create_layer(x, y, "Powers", obj_bullet);
 	with(_bullet){
 		direction = point_direction(x, y, obj_ball.x, obj_ball.y);
 		image_angle = direction - 90;

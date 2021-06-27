@@ -42,5 +42,15 @@ switch(room){
 		break;
 		
 	case rm_platform:
+		if(!global.platform_boss and global.cam_y <= 0){
+			global.platform_boss = true;
+			with(obj_platform_boss){
+				path_start(path_platform_boss, 5, path_action_restart, false);
+				alarm[0] = 2*room_speed;
+				alarm[1] = 5*room_speed;
+				alarm[2] = 10*room_speed;
+			}
+		}
+		
 		break;		
 }

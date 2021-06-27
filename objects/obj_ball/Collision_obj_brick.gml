@@ -5,7 +5,7 @@ part_particles_create(obj_particles.part_sys,other.x,other.y,obj_particles.part_
 with(other){
 	HP -= 1;
 	//sprite_index = spr_brick;
-	if(y < (room_height-sprite_height)) generate_brick_power();
+	if(y < (global.cam_y+global.cam_height-sprite_height)) generate_brick_power();
 }
 
 if(is_extra){

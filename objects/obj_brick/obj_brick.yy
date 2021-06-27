@@ -3,7 +3,7 @@
     "name": "spr_brick",
     "path": "sprites/spr_brick/spr_brick.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

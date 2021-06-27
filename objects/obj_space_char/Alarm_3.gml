@@ -11,8 +11,9 @@ global.cam_shake = 3;
 
 instance_destroy();
 
-var _char = instance_create_layer(x, y-26, "Instances", obj_platform_char);
+var _char = instance_create_layer(x, y-26, "Instances", obj_ball);
 with(_char){
+	is_flying = true;
 	direction = 270;
 	speed = 2;
 }

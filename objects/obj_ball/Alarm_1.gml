@@ -1,3 +1,3 @@
 ///@desc UFO finished
 is_UFO = false;
-speed = spd;
+speed = max_spd;

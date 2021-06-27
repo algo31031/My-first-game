@@ -1,10 +1,12 @@
+if(other.pause) exit;
+
 audio_play_sound(snd_power, 1, false);
 
 global.player_score += 20;
 
 switch(image_index){
 	case brick_powers.extend:		
-		with(obj_paddle){
+		with(other){
 			image_xscale = 2;
 			alarm[0] = 8*room_speed;
 		}
@@ -18,7 +20,11 @@ switch(image_index){
 		break;
 		
 	case brick_powers.clone:
-		var _ball = instance_create_layer(xstart, ystart, "Instances", obj_ball);
+		var _ball = instance_create_layer(
+						other.x, 
+						other.y-other.sprite_height/2-sprite_get_height(spr_ball)/2-1,
+						"Instances", obj_ball);
+		_ball.current_paddle = other;
 		with(_ball){
 			is_extra = true;
 			image_index = 1;
@@ -72,7 +78,7 @@ switch(image_index){
 				is_UFO = true;
 				alarm[1] = 5*room_speed;
 			}
-			with(obj_paddle){	
+			with(other){	
 				pause = true;
 				alarm[1] = 5*room_speed;
 			}
