@@ -9,6 +9,7 @@ global.bricks_counter = {
 	purple: 0,
 	rainbow: 0
 };
+global.gameover = false;
 
 // level switch
 global.brick_boss = false;
@@ -18,10 +19,10 @@ global.platform_level = false;
 global.platform_boss = false;
 global.final_level = false;
 
-// global cooldown
+// brick cooldown
 global.brick_power_cd = 0;
 
-lives = 10;
+lives = 1;
 
 draw_set_font(ft_UI_space);
 randomize();

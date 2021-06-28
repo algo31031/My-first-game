@@ -1,9 +1,30 @@
 if(global.player_score > global.high_score) global.high_score = global.player_score;	
 if(global.brick_power_cd > 0) global.brick_power_cd -= 1;
 
-if(lives <= 0){
-	lives = 5;
-	room_restart();	
+if(global.gameover){
+	if(keyboard_check_pressed(vk_space)){
+		lives = 5;
+		global.gameover = false;
+		instance_activate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1);
+		switch(room){
+			case rm_space:
+				global.h_move = 2;
+		}
+	}
+	
+	if(keyboard_check_pressed(vk_enter)){
+		game_restart();
+	}
+	
+	exit;
+}
+
+if(lives <= 0 and !global.gameover){
+	lives = 0;
+	global.gameover = true;
+	global.h_move = 0;
+	instance_deactivate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1,1);
+	exit;
 }
 
 switch(room){				
@@ -46,7 +67,7 @@ switch(room){
 			global.platform_boss = true;
 			with(obj_platform_boss){
 				path_start(path_platform_boss, 5, path_action_restart, false);
-				alarm[0] = 2*room_speed;
+				alarm[0] = 3*room_speed;
 				alarm[1] = 5*room_speed;
 				alarm[2] = 10*room_speed;
 			}

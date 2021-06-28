@@ -30,10 +30,7 @@ if(!shield and take_damage){
 		audio_play_sound(snd_space_die2, 5, false);
 		instance_destroy();
 		lives -= 1;
-		if(lives > 0){
-			instance_create_layer(global.cam_x+sprite_xoffset, room_height/2, "Instances", obj_space_char);
-		} else {
-			global.cam_x = 0;
-		}
+		instance_create_layer(global.cam_x+sprite_xoffset, room_height/2, "Instances", obj_space_char);
+
 	}
 }

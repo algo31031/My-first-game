@@ -76,11 +76,11 @@ switch(image_index){
 				}
 				is_flying = true;
 				is_UFO = true;
-				alarm[1] = 5*room_speed;
+				alarm[1] = 6*room_speed;
 			}
 			with(other){	
 				pause = true;
-				alarm[1] = 5*room_speed;
+				alarm[1] = 6*room_speed;
 			}
 		}
 		

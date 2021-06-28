@@ -1,4 +1,6 @@
 // main weapon
+if(global.gameover) exit;
+
 if(!cooldown){
 	var _bullet = instance_create_layer(x+sprite_xoffset+1, y, "Bullets", bullet == bullets.laser ? obj_space_laser : obj_space_missile);
 	cooldown = _bullet.cooldown;

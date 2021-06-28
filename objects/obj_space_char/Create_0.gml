@@ -30,6 +30,7 @@ if(room == rm_platform){
 	shield = 0;
 	HP = 1;
 	shield_restroe = 10*room_speed;
+	x = 0;
 	y = room_height - 324;
 	image_alpha = 1;
 	alarm[1] = -1;

@@ -18,6 +18,8 @@ enum space_powers {
 }
 
 function shield_regeneration(_time){
+	if(_time == undefined) _time = 10*room_speed;
+	
 	if(shield_restroe){
 		shield_restroe--;
 		shield_restroe = clamp(shield_restroe, 0, _time);
