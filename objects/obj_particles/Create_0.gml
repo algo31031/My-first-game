@@ -45,3 +45,10 @@ part_type_size(part_type_smoke, 0.2, 0.4, 0.02, 0.05);
 part_type_life(part_type_smoke, 10, 10);
 part_type_alpha3(part_type_smoke, 0.25, 0.75, 1);
 part_type_color3(part_type_smoke, c_orange, c_gray, c_dkgray);
+
+part_type_portal = part_type_create();
+part_type_shape(part_type_portal, pt_shape_ring);
+part_type_size(part_type_portal, 1, 1.5, 0.1, 0.25);
+part_type_scale(part_type_portal, 0.25, 0.5);
+part_type_life(part_type_portal, 10, 10);
+part_type_color3(part_type_portal, c_olive, c_orange, c_yellow);

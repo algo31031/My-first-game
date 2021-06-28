@@ -9,4 +9,4 @@ repeat(7){
 	}
 	_xx += 160;
 }
-alarm[1] = 5*room_speed;
+alarm[1] = 8*room_speed;

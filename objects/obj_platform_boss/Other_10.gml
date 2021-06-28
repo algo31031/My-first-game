@@ -1,9 +1,8 @@
 ///@desc take damage
-shield_restroe = 15*room_speed;
+shield_restroe = 20*room_speed;
 
 if(invincible){
 	audio_play_sound(snd_forceField_000, 5, false);
-	invincible--;
 	exit;
 }
 
@@ -32,9 +31,14 @@ if(!shield){
 			part_particles_create(obj_particles.part_sys,x+random_range(-64,64),
 									y+random_range(-64,64),obj_particles.part_type_explode_small,1);
 		}
-		global.cam_shake = 3;			
-		path_end();
+		global.cam_shake = 3;
 		
+		path_end();
+		instance_deactivate_object(obj_space_bullet);
+		
+		alarm[0] = -1;
+		alarm[1] = -1;
+		alarm[2] = -1;
 		direction = 270;
 		image_angle = -30;
 		speed = 3;

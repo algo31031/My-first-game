@@ -1,9 +1,23 @@
+if(global.final_level){
+	direction = point_direction(x, y, global.cam_x+80,global.cam_y+650);
+	
+	if(point_in_circle(x, y, global.cam_x+80,global.cam_y+650, 25)) room_goto(rm_final);
+	exit;
+}
+
 if(!is_flying){
 	var _paddle = current_paddle ? current_paddle : obj_paddle;
 	x = _paddle.x;
 	y = _paddle.y - sprite_height/2 - _paddle.sprite_height/2 - 1;
 	
 	exit;
+}
+
+if(!current_paddle){
+	for(var i = 0; i < instance_number(obj_paddle); ++i;){
+		var _paddle = instance_find(obj_paddle,i);
+		if(!_paddle.pause) current_paddle = _paddle;
+    }
 }
 
 // Collision

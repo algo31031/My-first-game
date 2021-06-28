@@ -35,7 +35,9 @@ switch(room){
 		}
 		
 		break;
+		
 	case rm_brick_init:
+	
 		if(!global.brick_boss and !instance_exists(obj_brick_4)){
 			global.brick_boss= true;
 			instance_create_layer(room_width+128, room_height*0.25, "Powers", obj_brick_boss);
@@ -71,6 +73,10 @@ switch(room){
 				alarm[1] = 5*room_speed;
 				alarm[2] = 10*room_speed;
 			}
+		}
+		
+		if(global.final_level){
+			part_particles_create(obj_particles.part_sys, global.cam_x+80,global.cam_y+650,obj_particles.part_type_portal,1);
 		}
 		
 		break;		
