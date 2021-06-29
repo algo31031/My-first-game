@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "not attached",
-    "path": "folders/Sprites/not attached.yy",
+    "name": "bricks",
+    "path": "folders/Sprites/bricks.yy",
   },
   "resourceVersion": "1.0",
   "name": "element_blue_rectangle",

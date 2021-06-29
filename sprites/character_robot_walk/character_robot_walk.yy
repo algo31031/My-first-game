@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "char",
-    "path": "folders/Sprites/platform level/char.yy",
+    "path": "folders/Sprites/char.yy",
   },
   "resourceVersion": "1.0",
   "name": "character_robot_walk",

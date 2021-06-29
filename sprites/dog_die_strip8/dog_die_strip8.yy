@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,36 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"90c42bbf-ece0-4151-8e4b-3018a203661e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"90c42bbf-ece0-4151-8e4b-3018a203661e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"90c42bbf-ece0-4151-8e4b-3018a203661e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9fb5e948-50e0-44f1-8861-515e498619ac","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9fb5e948-50e0-44f1-8861-515e498619ac","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"9fb5e948-50e0-44f1-8861-515e498619ac","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed1f8419-728d-4f95-9ae7-d4c18c63cf60","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed1f8419-728d-4f95-9ae7-d4c18c63cf60","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"ed1f8419-728d-4f95-9ae7-d4c18c63cf60","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e1980cc0-a8c9-41a1-94cb-0c68df827350","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e1980cc0-a8c9-41a1-94cb-0c68df827350","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"e1980cc0-a8c9-41a1-94cb-0c68df827350","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ec3466ec-05d3-4b1c-b165-22fc4d8ff7a1","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ec3466ec-05d3-4b1c-b165-22fc4d8ff7a1","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"ec3466ec-05d3-4b1c-b165-22fc4d8ff7a1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e80f5e9a-b4da-4945-87f0-b15c8887ef9f","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e80f5e9a-b4da-4945-87f0-b15c8887ef9f","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"e80f5e9a-b4da-4945-87f0-b15c8887ef9f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"516aa6aa-8273-44e4-bb2e-5ddf06908be2","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"516aa6aa-8273-44e4-bb2e-5ddf06908be2","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"516aa6aa-8273-44e4-bb2e-5ddf06908be2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7c5c42f2-d273-4358-9c3d-e56ce907c993","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c5c42f2-d273-4358-9c3d-e56ce907c993","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"34434c19-0b8d-47a5-b362-4aade01f06eb","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"7c5c42f2-d273-4358-9c3d-e56ce907c993","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"16ad0dc8-3dff-49b3-99c4-5386b244bd37","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"16ad0dc8-3dff-49b3-99c4-5386b244bd37","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"16ad0dc8-3dff-49b3-99c4-5386b244bd37","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"61748628-7b7c-4cc5-b3a1-613872ea4077","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"61748628-7b7c-4cc5-b3a1-613872ea4077","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"61748628-7b7c-4cc5-b3a1-613872ea4077","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"04647366-efc2-4017-803a-f746abba8223","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"04647366-efc2-4017-803a-f746abba8223","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"04647366-efc2-4017-803a-f746abba8223","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a4a9546-a228-4261-b7c3-29b3de20f192","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a4a9546-a228-4261-b7c3-29b3de20f192","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"7a4a9546-a228-4261-b7c3-29b3de20f192","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b3ab981c-a685-4e4f-b668-c5d060932c99","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b3ab981c-a685-4e4f-b668-c5d060932c99","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"b3ab981c-a685-4e4f-b668-c5d060932c99","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"00257630-fbf4-45f3-94a2-814b58749d07","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"00257630-fbf4-45f3-94a2-814b58749d07","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"00257630-fbf4-45f3-94a2-814b58749d07","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d30f841e-7984-4487-9afe-f2baa665bece","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d30f841e-7984-4487-9afe-f2baa665bece","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"d30f841e-7984-4487-9afe-f2baa665bece","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3bee81cb-f39c-4be5-ba4e-8cf1ea8c13fc","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3bee81cb-f39c-4be5-ba4e-8cf1ea8c13fc","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"LayerId":{"name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","name":"3bee81cb-f39c-4be5-ba4e-8cf1ea8c13fc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -62,14 +62,14 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d6691128-295b-4260-be7b-e2a9fc0e7f3f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"90c42bbf-ece0-4151-8e4b-3018a203661e","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2d97eb7e-8cc9-4035-940e-fa41a2b6b827","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fb5e948-50e0-44f1-8861-515e498619ac","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"4ac0b107-7fd2-4b61-8dfe-5b02e84b87aa","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed1f8419-728d-4f95-9ae7-d4c18c63cf60","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d6ed4556-890f-435b-bcab-ed76c2590606","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e1980cc0-a8c9-41a1-94cb-0c68df827350","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3f235ba6-9c8e-4e7e-9fcb-c6b7cf9afd2a","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec3466ec-05d3-4b1c-b165-22fc4d8ff7a1","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0d5fcc4f-f054-4cbf-b42c-18fd657559b1","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e80f5e9a-b4da-4945-87f0-b15c8887ef9f","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"49ce6605-fa91-464c-9e0e-6668b90635f6","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"516aa6aa-8273-44e4-bb2e-5ddf06908be2","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c6e73dda-8340-4946-858b-1a3f26d7be17","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c5c42f2-d273-4358-9c3d-e56ce907c993","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"130a7036-16d6-430c-90ab-9b3aad6b6f7c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16ad0dc8-3dff-49b3-99c4-5386b244bd37","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"240711d6-f66d-44d3-abe6-09bc041603ee","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61748628-7b7c-4cc5-b3a1-613872ea4077","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2ee844d5-e88f-4681-9e03-39942a66617c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04647366-efc2-4017-803a-f746abba8223","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77b9b998-aa7b-4ff7-a7bb-df83288284b8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a4a9546-a228-4261-b7c3-29b3de20f192","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"424e90a9-0152-45c2-a796-060c1fd76feb","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b3ab981c-a685-4e4f-b668-c5d060932c99","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bb0f646b-cfc0-463b-9b73-685a0e0089d6","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"00257630-fbf4-45f3-94a2-814b58749d07","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7ce408f0-18ea-4863-a465-776c15f98546","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d30f841e-7984-4487-9afe-f2baa665bece","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"16442610-319c-44f1-9b54-1c2afc3dab44","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3bee81cb-f39c-4be5-ba4e-8cf1ea8c13fc","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -82,8 +82,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 30,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"dog_die_strip8","path":"sprites/dog_die_strip8/dog_die_strip8.yy",},
@@ -93,12 +93,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34434c19-0b8d-47a5-b362-4aade01f06eb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"03e2e55b-03ec-4be8-91ed-fcfa660e7d5e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/platform level/dog.yy",
+    "path": "folders/Sprites/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_die_strip8",

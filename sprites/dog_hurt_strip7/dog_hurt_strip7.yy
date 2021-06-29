@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,33 +24,33 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"473fde5c-819f-4116-8b9b-4ec5f3371bbd","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"473fde5c-819f-4116-8b9b-4ec5f3371bbd","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"473fde5c-819f-4116-8b9b-4ec5f3371bbd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"61e999e0-00b5-4bfa-9f76-09a6604ee319","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"61e999e0-00b5-4bfa-9f76-09a6604ee319","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"61e999e0-00b5-4bfa-9f76-09a6604ee319","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d8e3814c-7651-4fae-b418-4a33fe3ef8bd","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d8e3814c-7651-4fae-b418-4a33fe3ef8bd","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"d8e3814c-7651-4fae-b418-4a33fe3ef8bd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c52c4fb2-8438-4520-abbc-d4021e392c56","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c52c4fb2-8438-4520-abbc-d4021e392c56","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"c52c4fb2-8438-4520-abbc-d4021e392c56","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3891ceb0-a0ef-4434-bb0d-cd357661bdbf","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3891ceb0-a0ef-4434-bb0d-cd357661bdbf","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"3891ceb0-a0ef-4434-bb0d-cd357661bdbf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"168f7ebd-9e0e-41b1-add5-f32ddbbadb34","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"168f7ebd-9e0e-41b1-add5-f32ddbbadb34","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"168f7ebd-9e0e-41b1-add5-f32ddbbadb34","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0e941354-18cd-4a20-b5ef-2354c61488f0","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0e941354-18cd-4a20-b5ef-2354c61488f0","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"04000a95-67f7-429c-9db7-29043fe33114","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"0e941354-18cd-4a20-b5ef-2354c61488f0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5558b597-e7bd-4bd9-91b0-80f0212fd53d","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5558b597-e7bd-4bd9-91b0-80f0212fd53d","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"5558b597-e7bd-4bd9-91b0-80f0212fd53d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"691970c3-34ab-4abd-a191-57c0dbfa020e","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"691970c3-34ab-4abd-a191-57c0dbfa020e","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"691970c3-34ab-4abd-a191-57c0dbfa020e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d973000b-a166-47d4-9c8c-ccc1a7072762","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d973000b-a166-47d4-9c8c-ccc1a7072762","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"d973000b-a166-47d4-9c8c-ccc1a7072762","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6dbb0c4c-416d-4331-bc7a-0b79e05a8375","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6dbb0c4c-416d-4331-bc7a-0b79e05a8375","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"6dbb0c4c-416d-4331-bc7a-0b79e05a8375","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f6e48f3a-d90a-41fe-94de-5ffa5e1c6da4","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f6e48f3a-d90a-41fe-94de-5ffa5e1c6da4","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"f6e48f3a-d90a-41fe-94de-5ffa5e1c6da4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b3c3365a-ff7b-457a-a7b9-48d77b7e2497","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b3c3365a-ff7b-457a-a7b9-48d77b7e2497","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"b3c3365a-ff7b-457a-a7b9-48d77b7e2497","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7b2926e3-8fa5-45fc-88c7-5a9e3ac20751","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7b2926e3-8fa5-45fc-88c7-5a9e3ac20751","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"LayerId":{"name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","name":"7b2926e3-8fa5-45fc-88c7-5a9e3ac20751","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -59,13 +59,13 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a5cfdee6-bd74-4301-9c6f-9bebe5e674d7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"473fde5c-819f-4116-8b9b-4ec5f3371bbd","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8accb548-f83d-4182-bd84-82e51e155e24","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61e999e0-00b5-4bfa-9f76-09a6604ee319","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d16696d6-b887-42ae-bc28-89a2da08ee77","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d8e3814c-7651-4fae-b418-4a33fe3ef8bd","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7bf8b619-aa52-4e8a-a4d3-e595da7b44a8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c52c4fb2-8438-4520-abbc-d4021e392c56","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"743d827c-d796-4f43-b783-4999b4a0316b","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3891ceb0-a0ef-4434-bb0d-cd357661bdbf","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ecba7adf-e651-449b-a75f-04fc1c3bc2da","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"168f7ebd-9e0e-41b1-add5-f32ddbbadb34","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"623c2cfb-10c5-4800-a898-73f0345cfa6b","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e941354-18cd-4a20-b5ef-2354c61488f0","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1de6c5b1-26af-4e72-89b5-e30eb021cb73","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5558b597-e7bd-4bd9-91b0-80f0212fd53d","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"743ef96f-df6c-409d-b8cb-d30ef2a37657","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"691970c3-34ab-4abd-a191-57c0dbfa020e","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ecd39e18-3ba6-4ec4-b423-a52211cb5f24","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d973000b-a166-47d4-9c8c-ccc1a7072762","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bdbebfa8-59fa-4b1b-8785-f67dac0801fc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6dbb0c4c-416d-4331-bc7a-0b79e05a8375","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"68a2267d-9f57-42e1-921a-795638e8a424","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6e48f3a-d90a-41fe-94de-5ffa5e1c6da4","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9842e1df-c02e-4366-a681-395ed8f35b57","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b3c3365a-ff7b-457a-a7b9-48d77b7e2497","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"745228a0-31ac-4713-a611-b3f6281d6c35","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b2926e3-8fa5-45fc-88c7-5a9e3ac20751","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -78,8 +78,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 30,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"dog_hurt_strip7","path":"sprites/dog_hurt_strip7/dog_hurt_strip7.yy",},
@@ -89,12 +89,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"04000a95-67f7-429c-9db7-29043fe33114","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"64f6324d-9302-48fc-b1ca-82e0ff0809d5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/platform level/dog.yy",
+    "path": "folders/Sprites/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_hurt_strip7",

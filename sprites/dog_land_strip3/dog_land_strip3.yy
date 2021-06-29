@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,21 +24,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e435dec7-f7d5-4998-8c26-049b2d3b32ad","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e435dec7-f7d5-4998-8c26-049b2d3b32ad","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":{"name":"d74d444c-0815-4c89-b217-b026a9c4d6d8","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"e435dec7-f7d5-4998-8c26-049b2d3b32ad","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b5026813-a4c2-404e-b2aa-ccc012587be2","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b5026813-a4c2-404e-b2aa-ccc012587be2","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":{"name":"d74d444c-0815-4c89-b217-b026a9c4d6d8","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"b5026813-a4c2-404e-b2aa-ccc012587be2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b8d8d16-80f2-4353-b2d7-f4c12c1d9864","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b8d8d16-80f2-4353-b2d7-f4c12c1d9864","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":{"name":"d74d444c-0815-4c89-b217-b026a9c4d6d8","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"6b8d8d16-80f2-4353-b2d7-f4c12c1d9864","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eeca7559-7171-443b-baae-8f7f0eab3dd3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eeca7559-7171-443b-baae-8f7f0eab3dd3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":{"name":"7150b1e6-9ead-45fc-95b9-e66f75470426","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"eeca7559-7171-443b-baae-8f7f0eab3dd3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b620d6fc-9a13-4ef6-8c12-3bac3b889bd4","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b620d6fc-9a13-4ef6-8c12-3bac3b889bd4","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":{"name":"7150b1e6-9ead-45fc-95b9-e66f75470426","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"b620d6fc-9a13-4ef6-8c12-3bac3b889bd4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"284c1b86-01a6-4e1e-aae3-e44f1b0cb0c0","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"284c1b86-01a6-4e1e-aae3-e44f1b0cb0c0","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"LayerId":{"name":"7150b1e6-9ead-45fc-95b9-e66f75470426","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","name":"284c1b86-01a6-4e1e-aae3-e44f1b0cb0c0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b7992fd2-2dfd-4865-a740-79f66889d0ac","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e435dec7-f7d5-4998-8c26-049b2d3b32ad","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f14e8cf5-aef0-4e3f-bd44-9322e2648e90","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5026813-a4c2-404e-b2aa-ccc012587be2","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c78d2a83-9edb-43dd-ad68-7656e0066c48","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b8d8d16-80f2-4353-b2d7-f4c12c1d9864","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"21425d48-6bcd-4283-a60a-49fad3e0fe51","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eeca7559-7171-443b-baae-8f7f0eab3dd3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"30f6aceb-f8d6-4b2c-a740-76c40963e941","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b620d6fc-9a13-4ef6-8c12-3bac3b889bd4","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f1f37cd8-50cb-433e-a892-b04155ce942a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"284c1b86-01a6-4e1e-aae3-e44f1b0cb0c0","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -62,8 +62,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 30,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"dog_land_strip3","path":"sprites/dog_land_strip3/dog_land_strip3.yy",},
@@ -73,12 +73,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d74d444c-0815-4c89-b217-b026a9c4d6d8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7150b1e6-9ead-45fc-95b9-e66f75470426","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/platform level/dog.yy",
+    "path": "folders/Sprites/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_land_strip3",

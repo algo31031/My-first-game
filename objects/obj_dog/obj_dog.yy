@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "dog_idle_strip8",
+    "path": "sprites/dog_idle_strip8/dog_idle_strip8.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "pets",
-    "path": "folders/Objects/platform level/pets.yy",
+    "path": "folders/Objects/pets.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dog",

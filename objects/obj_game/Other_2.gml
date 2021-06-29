@@ -9,6 +9,11 @@ global.bricks_counter = {
 	purple: 0,
 	rainbow: 0
 };
+global.pets = {
+	cat: -2,
+	cat_bw: 0,
+	dog: 0
+}
 global.gameover = false;
 
 // level switch
@@ -22,7 +27,7 @@ global.final_level = false;
 // brick cooldown
 global.brick_power_cd = 0;
 
-lives = 5;
+lives = 1;
 
 draw_set_font(ft_UI_space);
 randomize();

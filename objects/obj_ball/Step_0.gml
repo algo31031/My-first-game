@@ -53,18 +53,47 @@ if(bbox_top < global.cam_y){
 	}
 }
 
-// UFO power up
+// UFO status, can move freely
 if(is_UFO){
 	speed = 0;
-	if(keyboard_check(vk_left)) x -= 0.75;
-	if(keyboard_check(vk_right)) x += 0.75;
-	if(keyboard_check(vk_up)) y -= 0.75;
-	if(keyboard_check(vk_down)) y += 0.75;
+	// sprite changed into cat
+	if(global.pets.cat){
+		if(sprite_index != bwcat_idle_strip8 and sprite_index != cat_idle_blink_strip8){ 
+			sprite_index = choose(cat_idle_strip8, cat_idle_blink_strip8);
+		}
+		image_speed = 1;
+		image_xscale = 2;
+		image_yscale = 2;
+	
+		if(keyboard_check(vk_left)){
+			x -= 0.75;
+			if(sprite_index != cat_run_strip4) sprite_index = cat_run_strip4;
+			image_xscale = -2;
+		}
+		if(keyboard_check(vk_right)){ 
+			x += 0.75;
+			if(sprite_index != cat_run_strip4) sprite_index = cat_run_strip4;
+			image_xscale = 2;		
+		}
+		if(keyboard_check(vk_up)){
+			y -= 0.75;
+			if(sprite_index != cat_jump_strip4) sprite_index = cat_jump_strip4;
+		}
+		if(keyboard_check(vk_down)){
+			y += 0.75;
+			if(sprite_index != cat_jump_strip4) sprite_index = cat_jump_strip4;
+		}
+	} else {
+		part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_spark,1);
+		
+		if(keyboard_check(vk_left)) x -= 0.75;
+		if(keyboard_check(vk_right)) x += 0.75;
+		if(keyboard_check(vk_up)) y -= 0.75;
+		if(keyboard_check(vk_down)) y += 0.75;	
+	}
 	
 	x = clamp(x, sprite_xoffset, room_width-sprite_xoffset);
 	y = clamp(y, global.cam_y+sprite_yoffset, global.cam_y+global.cam_height-sprite_yoffset);
-	
-	part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_spark,1);
 	
 	exit;
 }

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "not attached",
-    "path": "folders/Sprites/not attached.yy",
+    "name": "final level",
+    "path": "folders/Sprites/final level.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_square_grey",

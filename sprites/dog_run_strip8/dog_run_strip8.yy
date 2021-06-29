@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,36 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ba1feb3d-e44e-4105-bba6-632bdc9d4b90","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba1feb3d-e44e-4105-bba6-632bdc9d4b90","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"ba1feb3d-e44e-4105-bba6-632bdc9d4b90","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"88a9d38a-3714-4012-8b25-a65e585fc852","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88a9d38a-3714-4012-8b25-a65e585fc852","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"88a9d38a-3714-4012-8b25-a65e585fc852","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fd38be6a-981a-40f0-a4c6-67f172d1476e","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd38be6a-981a-40f0-a4c6-67f172d1476e","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"fd38be6a-981a-40f0-a4c6-67f172d1476e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dae4c536-1eec-4ff2-bbb5-29dcce795477","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dae4c536-1eec-4ff2-bbb5-29dcce795477","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"dae4c536-1eec-4ff2-bbb5-29dcce795477","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f5904ef9-2335-49ce-9069-58feeddae6e1","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5904ef9-2335-49ce-9069-58feeddae6e1","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"f5904ef9-2335-49ce-9069-58feeddae6e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b504b7d-0e71-48c4-8734-ff30f99b04cc","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b504b7d-0e71-48c4-8734-ff30f99b04cc","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"6b504b7d-0e71-48c4-8734-ff30f99b04cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c2c8d289-5025-480b-8cce-018505d571ef","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2c8d289-5025-480b-8cce-018505d571ef","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"c2c8d289-5025-480b-8cce-018505d571ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"28e1884e-7a46-448d-af79-6d612d7618e8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28e1884e-7a46-448d-af79-6d612d7618e8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"28e1884e-7a46-448d-af79-6d612d7618e8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7de2bd03-aad4-451a-9bdc-f650fbcd42e9","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7de2bd03-aad4-451a-9bdc-f650fbcd42e9","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"7de2bd03-aad4-451a-9bdc-f650fbcd42e9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"549c0033-aae5-421b-8c7a-b830668b66f6","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"549c0033-aae5-421b-8c7a-b830668b66f6","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"549c0033-aae5-421b-8c7a-b830668b66f6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"58bdde92-f8b7-441d-a9c2-0bf1baf64341","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"58bdde92-f8b7-441d-a9c2-0bf1baf64341","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"58bdde92-f8b7-441d-a9c2-0bf1baf64341","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f41a5f43-769b-4ad3-82ea-8f7c08d9def2","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f41a5f43-769b-4ad3-82ea-8f7c08d9def2","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"f41a5f43-769b-4ad3-82ea-8f7c08d9def2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2776e04f-a070-4c61-b0c3-0a9b080e6a86","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2776e04f-a070-4c61-b0c3-0a9b080e6a86","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"2776e04f-a070-4c61-b0c3-0a9b080e6a86","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3e202ac2-0204-41bc-9910-1f5d2f490e62","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3e202ac2-0204-41bc-9910-1f5d2f490e62","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"3e202ac2-0204-41bc-9910-1f5d2f490e62","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f1f7b03d-fddf-4897-9b89-6d019696faee","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f1f7b03d-fddf-4897-9b89-6d019696faee","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"f1f7b03d-fddf-4897-9b89-6d019696faee","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0c2a569d-5e14-4b48-a07b-c22b4823b007","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c2a569d-5e14-4b48-a07b-c22b4823b007","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"LayerId":{"name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","name":"0c2a569d-5e14-4b48-a07b-c22b4823b007","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -62,14 +62,14 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"eaad6c6f-0106-4dc4-82a2-6c8d14e8a995","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba1feb3d-e44e-4105-bba6-632bdc9d4b90","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a7f3b2eb-d615-4758-b20b-5d2bdc4ae1ec","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88a9d38a-3714-4012-8b25-a65e585fc852","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"89236232-8508-4824-bffd-9f05c407257e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd38be6a-981a-40f0-a4c6-67f172d1476e","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5258f18e-39e5-4a97-b793-86adc3d48747","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dae4c536-1eec-4ff2-bbb5-29dcce795477","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"37609eed-62b9-4e94-812b-0fa42198a0b9","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5904ef9-2335-49ce-9069-58feeddae6e1","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"fe6a1c54-e32f-494f-b95e-4fa79d6e487c","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b504b7d-0e71-48c4-8734-ff30f99b04cc","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7ddb9b18-6df6-462b-b3d9-9d0f8a924298","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2c8d289-5025-480b-8cce-018505d571ef","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"df88b6c4-5360-4cea-b6e0-750d1beb5e39","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28e1884e-7a46-448d-af79-6d612d7618e8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c8734c86-bb5f-40cb-883f-2fb00715810a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7de2bd03-aad4-451a-9bdc-f650fbcd42e9","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2dbbfd8f-e20c-4a12-b06b-ab31cdad5d57","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"549c0033-aae5-421b-8c7a-b830668b66f6","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6f3f886e-3477-4c76-8f6d-d16ca0e91f62","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58bdde92-f8b7-441d-a9c2-0bf1baf64341","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"175f7d79-042e-4fef-8aef-b11f08d6d380","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f41a5f43-769b-4ad3-82ea-8f7c08d9def2","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b7d0ffce-1b2a-4cff-963b-76f6a65ed9d9","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2776e04f-a070-4c61-b0c3-0a9b080e6a86","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3bb3dd6b-9b10-4474-b0a7-21792f3d5226","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3e202ac2-0204-41bc-9910-1f5d2f490e62","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"97ffe90f-e90c-4ffa-a8fc-090967e09b1a","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f1f7b03d-fddf-4897-9b89-6d019696faee","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d5211ef5-0cc9-4b1b-94d9-741e1ab5af82","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c2a569d-5e14-4b48-a07b-c22b4823b007","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -82,8 +82,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 30,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"dog_run_strip8","path":"sprites/dog_run_strip8/dog_run_strip8.yy",},
@@ -93,12 +93,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2b54a678-c775-4c01-b710-2c0eaa6ff2d0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"811a16c1-ce1a-4718-a89d-62103d6d6b85","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/platform level/dog.yy",
+    "path": "folders/Sprites/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_run_strip8",

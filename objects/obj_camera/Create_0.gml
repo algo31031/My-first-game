@@ -5,7 +5,7 @@ global.cam_height = 720;
 
 global.cam_shake = 0;
 
-//target = undefined;
+target = undefined;
 global.v_move = 0;
 global.h_move = 0;
 global.v_move_max = 0;                                                             

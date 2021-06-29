@@ -12,3 +12,6 @@ if(is_extra){
 	extra_ball_hits_left -= 1;
 	if(extra_ball_hits_left <= 0) instance_destroy();
 }
+if(is_UFO and sprite_index != cat_attack_strip7){
+	 sprite_index = cat_attack_strip7;
+}

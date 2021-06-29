@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "cat_idle_strip8",
+    "path": "sprites/cat_idle_strip8/cat_idle_strip8.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,12 +23,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "pets",
-    "path": "folders/Objects/platform level/pets.yy",
+    "path": "folders/Objects/pets.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cat",

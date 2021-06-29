@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,27 +24,27 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cfc0be2e-e6bd-4cb2-8858-bb123cddae30","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cfc0be2e-e6bd-4cb2-8858-bb123cddae30","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"35775294-0306-4c10-af56-491d93369c24","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"cfc0be2e-e6bd-4cb2-8858-bb123cddae30","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cb59f212-3310-420b-b0f3-f635b2191f12","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb59f212-3310-420b-b0f3-f635b2191f12","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"35775294-0306-4c10-af56-491d93369c24","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"cb59f212-3310-420b-b0f3-f635b2191f12","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ad659d8c-c229-4e7b-872c-60a9ea8b47d3","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ad659d8c-c229-4e7b-872c-60a9ea8b47d3","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"35775294-0306-4c10-af56-491d93369c24","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"ad659d8c-c229-4e7b-872c-60a9ea8b47d3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"77216b29-7d96-495b-97a3-c148067f2532","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"77216b29-7d96-495b-97a3-c148067f2532","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"35775294-0306-4c10-af56-491d93369c24","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"77216b29-7d96-495b-97a3-c148067f2532","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f79e7690-fd77-4b8b-a5d3-6a11046366e7","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f79e7690-fd77-4b8b-a5d3-6a11046366e7","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"35775294-0306-4c10-af56-491d93369c24","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"f79e7690-fd77-4b8b-a5d3-6a11046366e7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f20ae69a-9f92-489f-a44e-0c12eaa4643d","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f20ae69a-9f92-489f-a44e-0c12eaa4643d","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"7c3610ba-efd0-4852-9737-eb68123723af","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"f20ae69a-9f92-489f-a44e-0c12eaa4643d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a9f0a287-de71-4225-84d9-d5d0bd61f24d","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a9f0a287-de71-4225-84d9-d5d0bd61f24d","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"7c3610ba-efd0-4852-9737-eb68123723af","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"a9f0a287-de71-4225-84d9-d5d0bd61f24d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5cd4220b-ed6f-49b6-8062-0696e36af382","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5cd4220b-ed6f-49b6-8062-0696e36af382","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"7c3610ba-efd0-4852-9737-eb68123723af","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"5cd4220b-ed6f-49b6-8062-0696e36af382","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e531b361-7822-4218-84b4-a0a34b406b5f","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e531b361-7822-4218-84b4-a0a34b406b5f","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"7c3610ba-efd0-4852-9737-eb68123723af","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"e531b361-7822-4218-84b4-a0a34b406b5f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"626a0c62-5b62-4a44-bf6c-c63746a94e48","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"626a0c62-5b62-4a44-bf6c-c63746a94e48","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"LayerId":{"name":"7c3610ba-efd0-4852-9737-eb68123723af","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","name":"626a0c62-5b62-4a44-bf6c-c63746a94e48","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -53,11 +53,11 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4e253b51-458e-48a4-8b23-7aa18df15bed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cfc0be2e-e6bd-4cb2-8858-bb123cddae30","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d8f687d2-4d03-44f6-99b0-1d2525df9ae6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb59f212-3310-420b-b0f3-f635b2191f12","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"31949f83-59e1-47a0-8b87-ffe3a95ec16f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad659d8c-c229-4e7b-872c-60a9ea8b47d3","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c2d24402-155e-4e64-bf40-790cc9c2a136","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77216b29-7d96-495b-97a3-c148067f2532","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"afa1a694-ad7d-4da6-a677-0aa9a236dd3a","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f79e7690-fd77-4b8b-a5d3-6a11046366e7","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dc76b7b8-4ad8-44d8-b106-e428c5f823e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f20ae69a-9f92-489f-a44e-0c12eaa4643d","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4cac1fd6-e046-40d5-98de-be089a2efd58","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a9f0a287-de71-4225-84d9-d5d0bd61f24d","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"47104e8f-1a4a-4993-b515-4290121e2143","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5cd4220b-ed6f-49b6-8062-0696e36af382","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"151ee954-2017-4efb-b03b-4557d85d9c45","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e531b361-7822-4218-84b4-a0a34b406b5f","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d157fe13-591a-49d7-b893-bcea63f25374","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"626a0c62-5b62-4a44-bf6c-c63746a94e48","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -70,8 +70,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 30,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"dog_fall_strip5","path":"sprites/dog_fall_strip5/dog_fall_strip5.yy",},
@@ -81,12 +81,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"35775294-0306-4c10-af56-491d93369c24","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c3610ba-efd0-4852-9737-eb68123723af","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/platform level/dog.yy",
+    "path": "folders/Sprites/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_fall_strip5",
