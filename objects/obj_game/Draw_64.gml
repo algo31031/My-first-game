@@ -2,24 +2,27 @@ if(global.gameover){
 	draw_set_halign(fa_center);	
 	draw_text_transformed_color(global.cam_width/2, 150, "Game Over",2, 2, 0, c_red, c_red, c_red, c_red, 1);
 	draw_set_halign(fa_left);
-	draw_sprite_ext(spr_brick,0,360,308,1,1,0,c_white,1);
-	draw_sprite_ext(spr_brick,1,360,358,1,1,0,c_white,1);
-	draw_sprite_ext(spr_brick,2,360,408,1,1,0,c_white,1);
-	draw_sprite_ext(spr_brick,3,360,458,1,1,0,c_white,1);
-	draw_sprite_ext(spr_brick,4,360,508,1,1,0,c_white,1);
-	draw_sprite_ext(spr_brick,-1,360,558,1,1,0,c_white,1);
-	draw_text_transformed(400, 300, "X "+string(global.bricks_counter.red), 0.5, 0.5, 0);
-	draw_text_transformed(400, 350, "X "+string(global.bricks_counter.yellow), 0.5, 0.5, 0);
-	draw_text_transformed(400, 400, "X "+string(global.bricks_counter.green), 0.5, 0.5, 0);
-	draw_text_transformed(400, 450, "X "+string(global.bricks_counter.blue), 0.5, 0.5, 0);
-	draw_text_transformed(400, 500, "X "+string(global.bricks_counter.purple), 0.5, 0.5, 0);
-	draw_text_transformed(400, 550, "X "+string(global.bricks_counter.rainbow), 0.5, 0.5, 0);
+	draw_sprite_ext(spr_brick,0,320,308,1,1,0,c_white,1);
+	draw_sprite_ext(spr_brick,1,320,358,1,1,0,c_white,1);
+	draw_sprite_ext(spr_brick,2,320,408,1,1,0,c_white,1);
+	draw_sprite_ext(spr_brick,3,320,458,1,1,0,c_white,1);
+	draw_sprite_ext(spr_brick,4,320,508,1,1,0,c_white,1);
+	draw_sprite_ext(spr_brick,-1,320,558,1,1,0,c_white,1);
+	draw_text_transformed(360, 300, "X "+string(global.bricks_counter.red), 0.5, 0.5, 0);
+	draw_text_transformed(360, 350, "X "+string(global.bricks_counter.yellow), 0.5, 0.5, 0);
+	draw_text_transformed(360, 400, "X "+string(global.bricks_counter.green), 0.5, 0.5, 0);
+	draw_text_transformed(360, 450, "X "+string(global.bricks_counter.blue), 0.5, 0.5, 0);
+	draw_text_transformed(360, 500, "X "+string(global.bricks_counter.purple), 0.5, 0.5, 0);
+	draw_text_transformed(360, 550, "X "+string(global.bricks_counter.rainbow), 0.5, 0.5, 0);
+	if(global.space_level) draw_sprite(spr_boss1, 0, 640, 330);
+	if(global.platform_level) draw_sprite(spr_boss2, 0, 640, 430);
+	if(global.final_level) draw_sprite(spr_boss3, 0, 640, 530);
 	if(global.pets.cat) draw_sprite_ext(cat_idle_strip8, 0, 960, 320, -2, 2, 0, c_white, 1);
 	if(global.pets.cat_bw) draw_sprite_ext(bwcat_idle_strip8, 0, 960, 420, -2, 2, 0, c_white, 1);
 	if(global.pets.dog) draw_sprite_ext(dog_idle_strip8, 0, 960, 520, -2, 2, 0, c_white, 1);
 	draw_set_halign(fa_center);
-	draw_text_transformed_color(global.cam_width/2, 600, "Press >> Enter << to Restart", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
-	draw_text_transformed_color(global.cam_width/2, 650, "Press >> Space << To Continue", 1, 1, 0, c_white, c_white, c_white, c_white, 1);		
+	draw_text_transformed_color(global.cam_width/2, 600, ">> Press Enter to Quit <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
+	draw_text_transformed_color(global.cam_width/2, 650, ">> Press Space To Continue <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);		
 	draw_set_halign(fa_left);
 }
 
@@ -78,7 +81,7 @@ switch(room){
 			}
 		} else {
 			draw_sprite_ext(spr_ball, 0, _x, 88, 0.75, 0.75, 0, c_white, 0.75);
-			draw_text(_x+16, 79.5, " X "+string(lives))
+			draw_text_transformed(_x+16, 79.5, " X "+string(lives), 0.5, 0.5, 0)
 		}
 	
 }

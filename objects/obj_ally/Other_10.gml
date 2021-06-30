@@ -24,12 +24,7 @@ if(!shield and take_damage){
 	
 	if(HP > 0) {
 		audio_play_sound(snd_hurt, 5, false);
-	}
-	else {
-		audio_play_sound(snd_space_die2, 5, false);
-		instance_destroy();
+	} else {
 		lives -= 1;
-		instance_create_layer(global.cam_x+sprite_xoffset, room_height/2, "Instances", obj_space_char);
-
 	}
 }

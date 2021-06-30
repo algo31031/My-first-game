@@ -7,8 +7,18 @@ if(global.gameover){
 		global.gameover = false;
 		instance_activate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1);
 		switch(room){
+			case rm_brick_init:
+				audio_play_sound(bgm_brick, 1, true);
+				break;
+		
 			case rm_space:
 				global.h_move = 2;
+				audio_play_sound(bgm_space, 1, true);
+				break;
+		
+			case rm_platform:
+				audio_play_sound(bgm_platform, 1, true);
+				break;			
 		}
 	}
 	
@@ -23,6 +33,8 @@ if(lives <= 0 and !global.gameover){
 	lives = 0;
 	global.gameover = true;
 	global.h_move = 0;
+	audio_stop_all();
+	audio_play_sound(bgm_gameover, 5, 0);	
 	instance_deactivate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1,1);
 	exit;
 }

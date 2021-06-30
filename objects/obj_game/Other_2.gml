@@ -27,7 +27,7 @@ global.final_level = false;
 // brick cooldown
 global.brick_power_cd = 0;
 
-lives = 1;
+lives = 5;
 
 draw_set_font(ft_UI_space);
 randomize();

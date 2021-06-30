@@ -28,6 +28,12 @@ part_type_size(part_type_missile_exhaust, 0.3, 0.5, 0.1, 0);
 part_type_scale(part_type_missile_exhaust, 0.75, 0.5);
 part_type_orientation(part_type_missile_exhaust, 270, 270, 0, 0, false);
 part_type_life(part_type_missile_exhaust, 8, 8);
+part_type_jetpack_exhaust = part_type_create();
+part_type_sprite(part_type_jetpack_exhaust, spr_spaceEffects_017, false, false, false);
+part_type_size(part_type_jetpack_exhaust, 0.3, 0.5, 0.1, 0.05);
+part_type_scale(part_type_jetpack_exhaust, 0.5, 1);
+part_type_orientation(part_type_jetpack_exhaust, 180, 180, 0, 0, false);
+part_type_life(part_type_jetpack_exhaust, 8, 8);
 
 part_type_hit_char = part_type_create();
 part_type_shape(part_type_hit_char, pt_shape_circle);
@@ -48,7 +54,7 @@ part_type_color3(part_type_smoke, c_orange, c_gray, c_dkgray);
 
 part_type_portal = part_type_create();
 part_type_shape(part_type_portal, pt_shape_ring);
-part_type_size(part_type_portal, 1, 1.5, 0.1, 0.25);
+part_type_size(part_type_portal, 0.75, 1, 0.05, 0.05);
 part_type_scale(part_type_portal, 0.25, 0.5);
-part_type_life(part_type_portal, 10, 10);
+part_type_life(part_type_portal, 30, 30);
 part_type_color3(part_type_portal, c_olive, c_orange, c_yellow);

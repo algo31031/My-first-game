@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "space level",
-    "path": "folders/Sprites/space level.yy",
+    "name": "final level",
+    "path": "folders/Sprites/final level.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_spaceEffects_017",
