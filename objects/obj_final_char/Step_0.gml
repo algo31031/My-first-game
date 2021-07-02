@@ -4,6 +4,7 @@ if(HP <= 0){
 	shield = 3;
 	x = spawn_x;
 	y = spawn_y;
+	jetpack = max_jetpack;
 	part_particles_create(obj_particles.part_sys, x,y,obj_particles.part_type_portal,1);
 	audio_play_sound(snd_portal, 1, 0);	
 	exit;
@@ -15,33 +16,26 @@ shield_regeneration(10*room_speed);
 
 var _lkey = keyboard_check(vk_left);
 var _rkey = keyboard_check(vk_right);
-var _jkey = keyboard_check_pressed(vk_up);
+var _jkey = keyboard_check(vk_up);
 
 if(place_meeting(x, y+1, obj_block)){
-	air_jump = 1;
 	vspd = 0;
-	
-	if(keyboard_check(vk_up)){
-		if(!audio_is_playing(snd_thrusterFire_000)) audio_play_sound(snd_thrusterFire_000, 1, 1);
-		part_particles_create(obj_particles.part_sys,x+(direction == 0 ? -9 : 9), y+3, obj_particles.part_type_jetpack_exhaust,1);
-	}
-	if(_jkey) vspd = -jspd;
-	
 } else {
-	if(vspd < max_spd) vspd += grav;
-	
-	if(air_jump){
-		if(keyboard_check(vk_up)){
-			if(!audio_is_playing(snd_thrusterFire_000)) audio_play_sound(snd_thrusterFire_000, 1, 1);
-			part_particles_create(obj_particles.part_sys,x+(direction == 0 ? -9 : 9), y+3, obj_particles.part_type_jetpack_exhaust,1);
-		}
-		if(_jkey){
-			vspd = -jspd;
-			if(keyboard_check_released(vk_up)) air_jump -= 1;
-		}
-	}	
+	if(vspd < max_spd) vspd += grav;	
 }
 
+if(_jkey and jetpack){
+	jetpack--;
+	vspd = -jspd;
+	if(!audio_is_playing(snd_thrusterFire_000)) audio_play_sound(snd_thrusterFire_000, 1, 1);
+	part_particles_create(obj_particles.part_sys,x+(direction == 0 ? -9 : 9), y+3, obj_particles.part_type_jetpack_exhaust,1);
+}
+if(!jetpack and audio_is_playing(snd_thrusterFire_000)){
+	audio_stop_sound(snd_thrusterFire_000);
+}
+if(!_jkey and jetpack < max_jetpack){
+	jetpack += 3;
+}
 
 if(_lkey){
 	direction = 180;

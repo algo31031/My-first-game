@@ -1,1 +1,1 @@
-lives += 5;
+global.gameover = true;

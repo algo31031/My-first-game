@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "char",
-    "path": "folders/Sprites/char.yy",
+    "path": "folders/Sprites/pets/char.yy",
   },
   "resourceVersion": "1.0",
   "name": "character_robot_talk",

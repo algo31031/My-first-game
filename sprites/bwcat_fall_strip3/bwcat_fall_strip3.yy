@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cat_bw",
-    "path": "folders/Sprites/cat_bw.yy",
+    "path": "folders/Sprites/pets/cat_bw.yy",
   },
   "resourceVersion": "1.0",
   "name": "bwcat_fall_strip3",

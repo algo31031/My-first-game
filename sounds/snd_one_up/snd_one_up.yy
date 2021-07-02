@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_one_up.ogg",
-  "duration": 1.168515,
+  "duration": 0.337494,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-HP = 1;
+HP = 2;
 max_HP = 1;
 point = 10;
 

@@ -8,8 +8,10 @@ if(!is_extra and other.pause){
 	current_paddle = other;
 	other.pause = false;
 	// move camera
-	global.v_move = max_spd;
-	global.v_move_max = other.y+sprite_height/2+sprite_get_height(spr_brick)-global.cam_height; 
+	if(room == rm_platform){
+		global.v_move = max_spd;
+		global.v_move_max = other.y+sprite_height/2+sprite_get_height(spr_brick)-global.cam_height;
+	}
 	exit;
 }
 

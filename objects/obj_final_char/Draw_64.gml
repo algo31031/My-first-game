@@ -1,0 +1,10 @@
+var _xx = global.cam_width - 20;
+var _yy = global.cam_height/3;
+draw_sprite_ext(spr_jetpack_ui,0,_xx,_yy,1,1,0,c_white,1);
+draw_sprite(barBack_verticalTop, 0, _xx, _yy+36);
+draw_sprite_ext(barBack_verticalMid, 0, _xx, _yy+41,1,10,0,c_white,1);
+draw_sprite(barBack_verticalBottom, 0, _xx, _yy+225);
+draw_sprite(barBlue_verticalTop, 0, _xx, _yy+36);
+var _i = 10.0*jetpack/max_jetpack;
+draw_sprite_ext(barBlue_verticalMid, 0, _xx, _yy+41,1,_i,0,c_white,1);
+draw_sprite(barBlue_verticalBottom, 0, _xx, _yy+45+(18*_i));

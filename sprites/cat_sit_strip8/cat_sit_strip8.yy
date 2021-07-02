@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cat",
-    "path": "folders/Sprites/cat.yy",
+    "path": "folders/Sprites/pets/cat.yy",
   },
   "resourceVersion": "1.0",
   "name": "cat_sit_strip8",

@@ -5,6 +5,7 @@ HP = 5;
 max_HP = 5;
 point = 25;
 bullet_damage = 3;
-//chaser = 1;
+chaser = 1;
+spd = 1;
 
 speed = 1;

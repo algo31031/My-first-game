@@ -9,3 +9,4 @@ part_type_destroy(part_type_hit_char);
 part_type_destroy(part_type_jet);
 part_type_destroy(part_type_smoke);
 part_type_destroy(part_type_portal);
+part_type_destroy(part_type_test);

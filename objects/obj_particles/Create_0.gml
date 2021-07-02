@@ -58,3 +58,9 @@ part_type_size(part_type_portal, 0.75, 1, 0.05, 0.05);
 part_type_scale(part_type_portal, 0.25, 0.5);
 part_type_life(part_type_portal, 30, 30);
 part_type_color3(part_type_portal, c_olive, c_orange, c_yellow);
+
+part_type_test = part_type_create();
+part_type_shape(part_type_test, pt_shape_pixel);
+part_type_size(part_type_test, 1, 1, 0, 2);
+part_type_life(part_type_test, 10, 10);
+part_type_alpha3(part_type_test,1,0.5,0.25);

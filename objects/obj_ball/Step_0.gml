@@ -92,7 +92,7 @@ if(is_UFO){
 		if(keyboard_check(vk_down)) y += 0.75;	
 	}
 	
-	x = clamp(x, sprite_xoffset, room_width-sprite_xoffset);
+	x = clamp(x, global.cam_x+sprite_xoffset, global.cam_x+global.cam_width-sprite_xoffset);
 	y = clamp(y, global.cam_y+sprite_yoffset, global.cam_y+global.cam_height-sprite_yoffset);
 	
 	exit;
@@ -102,3 +102,6 @@ if(is_UFO){
 if(direction == 0 or direction == 180 or direction == 90 or direction = 270){
 	direction += irandom(1) == 0 ? 10 : -10;
 }
+
+x = clamp(x, global.cam_x+sprite_xoffset, global.cam_x+global.cam_width-sprite_xoffset);
+y = clamp(y, global.cam_y+sprite_yoffset, global.cam_y+global.cam_height-sprite_yoffset);
