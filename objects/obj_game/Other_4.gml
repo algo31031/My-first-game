@@ -10,4 +10,7 @@ switch(room){
 	case rm_platform:
 		audio_play_sound(bgm_platform, 1, true);
 		break;
+	case rm_final:
+		audio_play_sound(bgm_final, 1, true);
+		break;
 }
