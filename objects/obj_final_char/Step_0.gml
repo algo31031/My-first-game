@@ -1,7 +1,7 @@
 // Inherit the parent event
 if(HP <= 0){
 	HP = 1;
-	shield = 3;
+	shield = max_shield;
 	x = spawn_x;
 	y = spawn_y;
 	jetpack = max_jetpack;
@@ -39,18 +39,26 @@ if(!_jkey and jetpack < max_jetpack){
 
 if(_lkey){
 	direction = 180;
-	hspd = -spd;
+	if(hspd > -spd) hspd -= fric;
+	else hspd = -spd;
 	//if(place_meeting(x-1,y,obj_block) and !place_meeting(x,y+1,obj_block) and !_rkey) vspd = -jspd;
 }
 
 if(_rkey){
 	direction = 0;
-	hspd = spd;
+	if(hspd < spd) hspd += fric;
+	else hspd = spd;
 	//if(place_meeting(x+1,y,obj_block) and !place_meeting(x,y+1,obj_block) and !_lkey) vspd = -jspd;
 }
 
 if((_lkey and _rkey) or (!_lkey and !_rkey)){
-	hspd = 0;
+	if(hspd != 0){
+		if(hspd > 0){
+			hspd -= fric;
+		} else {
+			hspd += fric
+		}
+	}
 }
 
 if(place_meeting(x+hspd, y, obj_block)){
