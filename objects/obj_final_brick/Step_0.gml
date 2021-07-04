@@ -55,13 +55,19 @@ if(bullet_damage and distance <= alert_distance){
 
 // 警戒距离内，追踪目标
 if(chaser){
-	if(distance <= alert_distance and distance >= 5){
+	if(distance <= alert_distance and distance > 1){
 		var _xx = lerp(x, obj_final_char.x, 0.5);
 		var _yy = lerp(y, obj_final_char.y, 0.5);
 		motion_set(point_direction(x, y, _xx, _yy), chaser);
 	} else {
-		speed = spd;
+		if(x == xstart and y == ystart) speed = 0;
+		else {
+			direction = point_direction(x,y,xstart,ystart);
+			speed = 1;
+		}
 	}
+	
+	
 }
 
 move_wrap(true, true, sprite_width/2);
