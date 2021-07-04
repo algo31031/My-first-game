@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
 
-dest_x = 1024;
-dest_y = 424;
+dest_x = 640;
+dest_y = 640;

@@ -18,7 +18,11 @@ if(global.gameover){
 		
 			case rm_platform:
 				audio_play_sound(bgm_platform, 1, true);
-				break;			
+				break;		
+				
+			case rm_final:
+				audio_play_sound(bgm_final, 1, true);
+				break;	
 		}
 	}
 	
@@ -26,6 +30,16 @@ if(global.gameover){
 		game_restart();
 	}
 	
+	exit;
+}
+
+if(global.win){
+	instance_deactivate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1,1);
+	audio_stop_all();
+	audio_play_sound(bgm_gameover, 5, 0);	
+		if(keyboard_check_pressed(vk_enter)){
+			game_restart();
+		}
 	exit;
 }
 

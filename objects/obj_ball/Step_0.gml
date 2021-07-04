@@ -16,7 +16,10 @@ if(!is_flying){
 if(!current_paddle){
 	for(var i = 0; i < instance_number(obj_paddle); ++i;){
 		var _paddle = instance_find(obj_paddle,i);
-		if(!_paddle.pause) current_paddle = _paddle;
+		if(!_paddle.pause){ 
+			current_paddle = _paddle;
+			break;
+		}
     }
 }
 
@@ -43,14 +46,10 @@ if(bbox_bottom > _yy){
 }
 
 if(bbox_top < global.cam_y){
-	if(is_extra){
-		instance_destroy();
-	} else {
-		speed_up();
-		audio_play_sound(snd_hit_wall, 1, false);
-		y = clamp(y,  global.cam_y + sprite_yoffset, _yy - sprite_yoffset);				
-		vspeed *= -1;
-	}
+	speed_up();
+	audio_play_sound(snd_hit_wall, 1, false);
+	y = clamp(y,  global.cam_y + sprite_yoffset, _yy - sprite_yoffset);				
+	vspeed *= -1;
 }
 
 // UFO status, can move freely
