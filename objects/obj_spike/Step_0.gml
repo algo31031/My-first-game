@@ -21,7 +21,7 @@ if(_d <= 100){
 			if(y == ystart) y += 30;
 			else y -= 0.5;
 	}
-} else if(_d > 100){
+} else {
 	x = xstart;
 	y = ystart;
 }

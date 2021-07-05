@@ -1,5 +1,5 @@
 switch(room){
-	case rm_final:
+	case rm_pvz:
 		game_restart();
 		break;
 	default:

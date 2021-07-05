@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "platform level",
-    "path": "folders/Sprites/platform level.yy",
+    "name": "pvz level",
+    "path": "folders/Sprites/pvz level.yy",
   },
   "resourceVersion": "1.0",
   "name": "raygunPurpleBig",

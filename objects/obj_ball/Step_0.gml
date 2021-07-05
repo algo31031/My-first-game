@@ -56,7 +56,9 @@ if(bbox_top < global.cam_y){
 if(is_UFO){
 	speed = 0;
 	// sprite changed into cat
-	if(global.pets.cat){
+	if(global.pets.cat == 1){
+		global.coins += 100;
+		
 		if(sprite_index != bwcat_idle_strip8 and sprite_index != cat_idle_blink_strip8){ 
 			sprite_index = choose(cat_idle_strip8, cat_idle_blink_strip8);
 		}

@@ -68,7 +68,8 @@ switch(image_index){
 		//	}
 		//	y = irandom_range(room_height/4, room_height*0.75);			
 		//}
-		if(!global.pets.cat){ global.pets.cat += 1; }
+		global.pets.cat += 1;
+		
 		for (var i = 0; i < instance_number(obj_ball); i++;) {
 			var _ball = instance_find(obj_ball,i);
 			with(_ball){
