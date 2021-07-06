@@ -1,6 +1,6 @@
 global.player_score = 0;
 global.high_score = 100;
-global.coins = 0;
+global.coins = 35;
 global.bricks_counter = {
 	total: 0,
 	red: 0,

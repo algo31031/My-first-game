@@ -59,11 +59,9 @@ switch(room){
 			draw_text_transformed(_x+16, 79.5, " X "+string(lives), 0.5, 0.5, 0)
 		}
 		
-		if(global.coins){
-			draw_set_halign(fa_right);
-			draw_sprite_ext(spr_coin, 0, global.cam_width-24, 88, 0.5, 0.75, 0, c_white, 1);
-			draw_text_transformed(global.cam_width-40, 79.5,string(global.coins),0.5,0.5,0);
-			draw_set_halign(fa_left);
-		}
+		draw_set_halign(fa_right);
+		draw_sprite_ext(spr_coin, 0, global.cam_width-24, 88, 0.5, 0.75, 0, c_white, 1);
+		draw_text_transformed(global.cam_width-40, 79.5,string(global.coins),0.5,0.5,0);
+		draw_set_halign(fa_left);
 	
 }

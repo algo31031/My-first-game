@@ -5,6 +5,7 @@ turret_values = {
 
 shake_x = 0;
 shake_y = 0;
+coins_to_collect = 3;
 
 timeline_index = tl_pvz_enemy;
 timeline_running = true;

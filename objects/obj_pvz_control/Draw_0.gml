@@ -53,3 +53,10 @@ if(!place_meeting(x,y, obj_pvz_turret)){
 		}
 	}
 }
+
+if(coins_to_collect and instance_exists(obj_item_coin)){
+	var _xx = irandom_range(-2,2);
+	var _yy = irandom_range(-2,2);
+	var _coin = instance_nearest(x,y,obj_item_coin);
+	draw_sprite(spr_mouseLeft, 0, _coin.x+_xx, _coin.bbox_top-30+_yy);
+}

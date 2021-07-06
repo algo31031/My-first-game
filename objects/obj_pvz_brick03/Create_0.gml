@@ -7,3 +7,4 @@ shield = 5;
 max_shield = 5;
 h_move = -16;
 point = 15;
+coins[1] = 3;

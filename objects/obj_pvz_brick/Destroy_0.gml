@@ -1,5 +1,4 @@
 global.player_score += point;
-global.coins += point;
 global.bricks_counter.total += 1;
 
 if(global.bricks_counter.total and global.bricks_counter.total%50 == 0){
@@ -29,3 +28,17 @@ switch(image_index){
 }
 
 part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_explode_small,1);
+
+for(var _i = 0; _i < 3; _i++){
+	if(!coins[_i]) continue;
+	var _x = irandom_range(-2,2);
+	repeat(coins[_i]){
+		var _coin = instance_create_layer(x+_x,y,"Items",obj_item_coin);
+		with(_coin){
+			image_index = _i;
+			point = power(5,image_index);
+			value = point;
+			path_start(path_pvz_coin,10,path_action_stop,0);
+		}
+	}
+}

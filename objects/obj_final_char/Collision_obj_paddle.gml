@@ -9,5 +9,7 @@ instance_activate_object(obj_portal_yellow);
 obj_camera.target = undefined;
 global.cam_x = 0;
 global.cam_y = 0;
+global.v_move = 0;
+global.h_move = 0;
 
 global.final_boss = true;
