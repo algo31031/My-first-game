@@ -35,7 +35,7 @@
     "spriteId": {"name":"spr_paddle","path":"sprites/spr_paddle/spr_paddle.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

@@ -41,7 +41,10 @@ switch(room){
 		draw_set_halign(fa_left);	
 		
 		break;
-		
+	case rm_pvz:
+		draw_set_halign(fa_center);	
+		draw_text(room_width/2, 32, string(current_hour) + ":" + string(current_minute) + "." + string(current_second));
+		draw_set_halign(fa_left);
 	default:
 		draw_scores();
 		
