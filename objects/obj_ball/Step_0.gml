@@ -52,13 +52,11 @@ if(bbox_top < global.cam_y){
 	vspeed *= -1;
 }
 
-// UFO status, can move freely
+// UFO模式，玩家变为控制球而非球拍
 if(is_UFO){
 	speed = 0;
-	// sprite changed into cat
-	if(global.pets.cat == 1){
-		global.coins += 100;
-		
+	// 猫猫~
+	if(global.pets.cat == 1){		
 		if(sprite_index != bwcat_idle_strip8 and sprite_index != cat_idle_blink_strip8){ 
 			sprite_index = choose(cat_idle_strip8, cat_idle_blink_strip8);
 		}
@@ -99,9 +97,9 @@ if(is_UFO){
 	exit;
 }
 
-// To avoid the ball forever jumping
+// 避免弹球水平或垂直方向反复跳个不停
 if(direction == 0 or direction == 180 or direction == 90 or direction = 270){
-	direction += irandom(1) == 0 ? 10 : -10;
+	direction += choose(15, -15);
 }
 
 x = clamp(x, global.cam_x+sprite_xoffset, global.cam_x+global.cam_width-sprite_xoffset);

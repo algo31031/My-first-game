@@ -1,6 +1,6 @@
 global.player_score = 0;
 global.high_score = 100;
-global.coins = 35;
+global.coins = 50;
 global.bricks_counter = {
 	total: 0,
 	red: 0,
@@ -30,7 +30,7 @@ global.final_boss = false;
 // brick cooldown
 global.brick_power_cd = 0;
 
-lives = 5;
+lives = 6;
 
 draw_set_font(ft_UI_space);
 randomize();

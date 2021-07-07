@@ -6,6 +6,11 @@ if(HP <= 0){
 	exit;
 }
 
+if(x < global.cam_x or y < global.cam_y or y > (global.cam_y+global.cam_height)){
+	instance_deactivate_object(id);
+	exit;
+}
+
 if(jet and x < (global.cam_x+global.cam_width/2)){
 	direction = 180;
 	speed = jet;

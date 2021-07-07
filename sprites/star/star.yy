@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "final level",
-    "path": "folders/Sprites/final level.yy",
+    "name": "pvz level",
+    "path": "folders/Sprites/pvz level.yy",
   },
   "resourceVersion": "1.0",
   "name": "star",

@@ -1,4 +1,4 @@
-var _xx = 32;
+var _xx = global.cam_width-32;
 var _yy = global.cam_height/5;
 draw_sprite_ext(spr_jetpack_ui,0,_xx,_yy,1,1,0,c_white,1);
 draw_sprite(barBack_verticalTop, 0, _xx, _yy+36);

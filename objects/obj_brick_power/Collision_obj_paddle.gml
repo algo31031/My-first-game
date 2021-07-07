@@ -17,6 +17,17 @@ switch(image_index){
 			speed = spd - 0.5;
 			alarm[0] = 8*room_speed;
 		}
+		
+		audio_play_sound(snd_coin,1,0);
+		var _coin = instance_create_layer(x,y,"Powers",obj_item_coin);
+		with(_coin){
+			image_index = 0;
+			direction = point_direction(x,y,global.cam_x+global.cam_width-24,global.cam_y+88);
+			speed = 15;
+			point = 1;
+			value = 1;
+		}		
+		
 		break;
 		
 	case brick_powers.clone:
@@ -69,6 +80,7 @@ switch(image_index){
 		//	y = irandom_range(room_height/4, room_height*0.75);			
 		//}
 		global.pets.cat += 1;
+		if(global.pets.cat == 1) global.coins += 25;
 		
 		for (var i = 0; i < instance_number(obj_ball); i++;) {
 			var _ball = instance_find(obj_ball,i);

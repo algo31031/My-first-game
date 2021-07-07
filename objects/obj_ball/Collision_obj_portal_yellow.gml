@@ -12,4 +12,4 @@ with(other){
 	obj_camera.target = _char;
 }
 
-with(obj_game) alarm[2] = 15*room_speed;
+with(obj_game) alarm[2] = 10*room_speed;

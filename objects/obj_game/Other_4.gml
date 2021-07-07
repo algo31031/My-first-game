@@ -13,4 +13,8 @@ switch(room){
 	case rm_final:
 		audio_play_sound(bgm_final, 1, true);
 		break;
+	case rm_pvz:
+		audio_play_sound(bgm_pvz, 1, true);
+		pvz_start = date_current_datetime();
+		break;
 }

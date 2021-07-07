@@ -1,1 +1,0 @@
-global.gameover = true;

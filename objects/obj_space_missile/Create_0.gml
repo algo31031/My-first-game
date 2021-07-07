@@ -2,7 +2,7 @@
 event_inherited();
 
 cooldown = 1*room_speed;
-target_locked = -1;
+target_locked = obj_enemy;
 max_spd = 16;
 faction = factions.ally;
 

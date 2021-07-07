@@ -2,6 +2,10 @@ if(global.player_score > global.high_score) global.high_score = global.player_sc
 if(global.brick_power_cd > 0) global.brick_power_cd -= 1;
 
 if(global.gameover){
+	global.player_score = 0;
+	global.h_move = 0;
+	global.v_move = 0;
+	
 	if(keyboard_check_pressed(vk_space)){
 		lives = 5;
 		global.gameover = false;
