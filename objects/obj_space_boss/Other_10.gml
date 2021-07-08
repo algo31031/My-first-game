@@ -17,13 +17,11 @@ if(HP > 0) {
 	}
 }
 else {
+	audio_play_sound(snd_space_boss_hurt,2,0);
 	bullet_damage = 0;
 	max_HP = 0;
-	speed = 3;
-	direction = 270;
 	alarm[0] = -1;
 	alarm[1] = -1;
 	alarm[2] = -1;
-	sprite_index = spr_sboss_fall;
-	audio_play_sound(snd_fall, 2, false);
+	alarm[3] = 0.5*room_speed;
 }

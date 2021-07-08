@@ -11,8 +11,7 @@ invincible = 0.5*room_speed;
 if(shield){
 	audio_play_sound(snd_forceField_000, 5, false);
 	shield -= 1;
-	shield = clamp(shield, 0, max_shield);
-	
+	shield = clamp(shield, 0, max_shield);	
 	exit;
 }
 
@@ -31,10 +30,10 @@ if(!shield){
 			part_particles_create(obj_particles.part_sys,x+random_range(-64,64),
 									y+random_range(-64,64),obj_particles.part_type_explode_small,1);
 		}
-		global.cam_shake = 3;
+		global.cam_shake = 4;
 		
 		path_end();
-		instance_deactivate_object(obj_space_bullet);
+		instance_deactivate_object(obj_bullet);
 		
 		alarm[0] = -1;
 		alarm[1] = -1;

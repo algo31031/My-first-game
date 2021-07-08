@@ -1,4 +1,4 @@
-if(global.final_level){
+if(global.final_level and room == rm_platform){
 	direction = point_direction(x, y, global.cam_x+80,global.cam_y+650);
 	
 	if(point_in_circle(x, y, global.cam_x+80,global.cam_y+650, 25)) room_goto(rm_final);
@@ -80,7 +80,7 @@ if(is_UFO){
 		}
 		if(keyboard_check(vk_down)){
 			y += 0.75;
-			if(sprite_index != cat_jump_strip4) sprite_index = cat_jump_strip4;
+			if(sprite_index != cat_fall_strip3) sprite_index = cat_fall_strip3;
 		}
 	} else {
 		part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_spark,1);
@@ -91,16 +91,16 @@ if(is_UFO){
 		if(keyboard_check(vk_down)) y += 0.75;	
 	}
 	
-	x = clamp(x, global.cam_x+sprite_xoffset, global.cam_x+global.cam_width-sprite_xoffset);
-	y = clamp(y, global.cam_y+sprite_yoffset, global.cam_y+global.cam_height-sprite_yoffset);
+	x = clamp(x, global.cam_x+sprite_width/2, global.cam_x+global.cam_width-sprite_width/2);
+	y = clamp(y, global.cam_y+sprite_height/2, global.cam_y+global.cam_height-sprite_height/2);
 	
 	exit;
 }
+
+x = clamp(x, global.cam_x+sprite_width/2, global.cam_x+global.cam_width-sprite_width/2);
+y = clamp(y, global.cam_y+sprite_height/2, global.cam_y+global.cam_height-sprite_height/2);
 
 // 避免弹球水平或垂直方向反复跳个不停
 if(direction == 0 or direction == 180 or direction == 90 or direction = 270){
 	direction += choose(15, -15);
 }
-
-x = clamp(x, global.cam_x+sprite_xoffset+1, global.cam_x+global.cam_width-sprite_xoffset+1);
-y = clamp(y, global.cam_y+sprite_yoffset+1, global.cam_y+global.cam_height-sprite_yoffset+1);

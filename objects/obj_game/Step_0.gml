@@ -87,8 +87,6 @@ switch(room){
 		
 		if(global.space_boss and obj_space_boss.HP <= 0){
 			audio_stop_sound(bgm_space);
-			if(!global.platform_level) audio_play_sound(snd_space_level, 1, false);
-			global.platform_level = true;
 		}
 		
 		break;
@@ -97,7 +95,7 @@ switch(room){
 		if(!global.platform_boss and global.cam_y <= 0){
 			global.platform_boss = true;
 			with(obj_platform_boss){
-				path_start(path_platform_boss, 5, path_action_restart, false);
+				path_start(path_platform_boss, 3, path_action_restart, false);
 				alarm[0] = 3*room_speed;
 				alarm[1] = 5*room_speed;
 				alarm[2] = 10*room_speed;
@@ -105,6 +103,7 @@ switch(room){
 		}
 		
 		if(global.final_level){
+			instance_deactivate_object(obj_brick);
 			part_particles_create(obj_particles.part_sys, global.cam_x+80,global.cam_y+650,obj_particles.part_type_portal,1);
 		}
 		

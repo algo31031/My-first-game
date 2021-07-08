@@ -6,8 +6,10 @@ if(other.locked){
 		
 		instance_activate_object(obj_paddle);
 		instance_activate_object(obj_ball);
+		
 		instance_deactivate_object(obj_faction);
 		instance_deactivate_object(obj_portal);
+		instance_deactivate_object(obj_space_bullet);
 		instance_activate_object(obj_portal_yellow);
 
 		obj_camera.target = undefined;

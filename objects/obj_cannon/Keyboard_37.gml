@@ -1,3 +1,4 @@
-if(image_angle < 175){
-	image_angle += 2;
+if(x > sprite_xoffset){
+	x -= 3;
+	x = clamp(x, sprite_xoffset, room_width-sprite_xoffset);
 }
