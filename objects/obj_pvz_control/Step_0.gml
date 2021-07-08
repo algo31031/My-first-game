@@ -1,18 +1,24 @@
+if(pvz_boss_counter <= 0 and !alarm[0]) alarm[0] = 5*room_speed;
+
 if((keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))) and place_meeting(x, y-210, obj_pvz_block)){ 
 	y -= 210;
 	audio_play_sound(snd_move_cross,2,0);
+	direction_icon_left--;
 }
 if((keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S"))) and place_meeting(x, y+210, obj_pvz_block)){ 
 	y += 210;
 	audio_play_sound(snd_move_cross,2,0);
+	direction_icon_left--;
 }
 if((keyboard_check_pressed(vk_left) or keyboard_check_pressed(ord("A"))) and place_meeting(x-70, y, obj_pvz_block)){ 
 	x -= 70;
 	audio_play_sound(snd_move_cross,2,0);
+	direction_icon_left--;
 }
 if((keyboard_check_pressed(vk_right) or keyboard_check_pressed(ord("D"))) and place_meeting(x+70, y, obj_pvz_block)){ 
 	x += 70;
 	audio_play_sound(snd_move_cross,2,0);
+	direction_icon_left--;
 }
 
 if(shake_x_t > 0) shake_x_t -= 0.5;

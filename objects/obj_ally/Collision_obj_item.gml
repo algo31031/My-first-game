@@ -4,7 +4,7 @@
 
 switch(object_get_name(other.object_index)){	
 	case "obj_item_coin":
-		audio_play_sound(snd_coin, 1, 0);
+		if(!audio_is_playing(snd_coin)) audio_play_sound(snd_coin, 1, 0);
 		with(other){
 			if(speed > 0) exit;
 			else {	

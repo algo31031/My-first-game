@@ -1,7 +1,7 @@
 part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_explode_small,1);
 
+instance_activate_object(obj_paddle);
 instance_activate_object(obj_ball);
-obj_paddle.pause = false;
 
 instance_deactivate_object(obj_faction);
 instance_deactivate_object(obj_portal);

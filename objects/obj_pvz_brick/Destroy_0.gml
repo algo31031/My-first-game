@@ -33,7 +33,7 @@ part_particles_create(obj_particles.part_sys,x,y,obj_particles.part_type_explode
 for(var _i = 0; _i < 3; _i++){
 	if(!coins[_i]) continue;
 	repeat(coins[_i]){
-		var _x = irandom_range(-5,5);
+		var _x = choose(-10,-5,0,5,10);
 		var _coin = instance_create_layer(x+_x,y,"Items",obj_item_coin);
 		with(_coin){
 			image_index = _i;

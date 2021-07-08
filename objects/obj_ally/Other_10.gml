@@ -25,6 +25,6 @@ if(!shield and take_damage){
 	if(HP > 0) {
 		audio_play_sound(snd_hurt, 5, false);
 	} else {
-		lives -= 1;
+		if(room != rm_pvz) lives -= 1;
 	}
 }

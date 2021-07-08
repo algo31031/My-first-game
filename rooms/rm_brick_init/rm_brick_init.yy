@@ -13,7 +13,14 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_brick_3","path":"objects/obj_brick_3/obj_brick_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":288.0,"resourceVersion":"1.0","name":"inst_56353A9C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_brick_3","path":"objects/obj_brick_3/obj_brick_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":256.0,"resourceVersion":"1.0","name":"inst_259DC07E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_brick_3","path":"objects/obj_brick_3/obj_brick_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":256.0,"resourceVersion":"1.0","name":"inst_7FB0A44A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_brick_3","path":"objects/obj_brick_3/obj_brick_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":288.0,"resourceVersion":"1.0","name":"inst_3E195195","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_brick_3","path":"objects/obj_brick_3/obj_brick_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":320.0,"resourceVersion":"1.0","name":"inst_5CE30CF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_brick_3","path":"objects/obj_brick_3/obj_brick_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":320.0,"resourceVersion":"1.0","name":"inst_6AB6FB79","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Powers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_paddle","path":"objects/obj_paddle/obj_paddle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":676.0,"resourceVersion":"1.0","name":"inst_FF55F77","tags":[],"resourceType":"GMRInstance",},
@@ -154,6 +161,12 @@
     {"name":"inst_68A4F263","path":"rooms/rm_brick_init/rm_brick_init.yy",},
     {"name":"inst_5A3D262","path":"rooms/rm_brick_init/rm_brick_init.yy",},
     {"name":"inst_2FA49669","path":"rooms/rm_brick_init/rm_brick_init.yy",},
+    {"name":"inst_56353A9C","path":"rooms/rm_brick_init/rm_brick_init.yy",},
+    {"name":"inst_259DC07E","path":"rooms/rm_brick_init/rm_brick_init.yy",},
+    {"name":"inst_7FB0A44A","path":"rooms/rm_brick_init/rm_brick_init.yy",},
+    {"name":"inst_3E195195","path":"rooms/rm_brick_init/rm_brick_init.yy",},
+    {"name":"inst_5CE30CF","path":"rooms/rm_brick_init/rm_brick_init.yy",},
+    {"name":"inst_6AB6FB79","path":"rooms/rm_brick_init/rm_brick_init.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

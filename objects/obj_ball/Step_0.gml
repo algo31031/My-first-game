@@ -102,5 +102,5 @@ if(direction == 0 or direction == 180 or direction == 90 or direction = 270){
 	direction += choose(15, -15);
 }
 
-x = clamp(x, global.cam_x+sprite_xoffset, global.cam_x+global.cam_width-sprite_xoffset);
-y = clamp(y, global.cam_y+sprite_yoffset, global.cam_y+global.cam_height-sprite_yoffset);
+x = clamp(x, global.cam_x+sprite_xoffset+1, global.cam_x+global.cam_width-sprite_xoffset+1);
+y = clamp(y, global.cam_y+sprite_yoffset+1, global.cam_y+global.cam_height-sprite_yoffset+1);

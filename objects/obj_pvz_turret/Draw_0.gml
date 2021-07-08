@@ -10,7 +10,7 @@ if(bullet == bullets.laser){
 	draw_sprite(spr_spaceMissiles_040,bullet_damage-1,x,y);
 }
 
-if(shield) draw_sprite_ext(spr_shield, shield-1, x, y, 0.35, 0.35,0,c_white,1);
+if(shield) draw_sprite_ext(spr_shield, 2, x, y, 0.35, 0.35,0,c_white,1);
 
 if(HP < full_HP){
 	draw_sprite_ext(barBack_verticalMid,0,bbox_left-10,bbox_bottom-35,0.5,2,0,c_white,1);	

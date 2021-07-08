@@ -16,7 +16,7 @@ invincible = true;
 shield_restroe = 0;
 move_spd = 3;
 
-
+show_arrow = false;
 
 x = global.cam_x + sprite_xoffset/2;
 y = room_height/2;

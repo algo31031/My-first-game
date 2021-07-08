@@ -7,7 +7,10 @@ shake_x_t = 0;
 shake_y_t = 0;
 shake_x_w = 0;
 shake_y_w = 0;
-coins_to_collect = 5;
+mouse_icon_left = 5;
+direction_icon_left = 5;
+arrow_span = 0;
+pvz_boss_counter = 6;
 
 timeline_index = tl_pvz_enemy;
 timeline_running = true;

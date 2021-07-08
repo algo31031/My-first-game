@@ -26,5 +26,7 @@ max_jetpack = 120;
 spawn_x = x;
 spawn_y = y;
 
+show_arrow = false;
+
 part_particles_create(obj_particles.part_sys, x,y,obj_particles.part_type_portal,1);
 audio_play_sound(snd_portal, 1, 0);

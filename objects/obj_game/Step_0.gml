@@ -40,7 +40,7 @@ if(global.gameover){
 if(global.win){
 	instance_deactivate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1,1);
 	audio_stop_all();	
-		if(keyboard_check_pressed(vk_enter)){
+		if(keyboard_check_pressed(vk_space)){
 			game_restart();
 		}
 	exit;

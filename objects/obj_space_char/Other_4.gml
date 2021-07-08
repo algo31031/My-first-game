@@ -10,3 +10,7 @@ switch(room){
 		alarm[3] = 9*room_speed;
 		break;	
 }
+
+
+if(room == rm_space) show_arrow = 3*room_speed;
+arrow_span = 0;

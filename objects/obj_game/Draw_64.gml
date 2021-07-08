@@ -25,7 +25,7 @@ if(global.gameover or global.win){
 	if(global.pets.dog) draw_sprite_ext(dog_idle_strip8, 0, 960, 500, -2, 2, 0, c_white, 1);
 	draw_set_halign(fa_center);
 	draw_set_font(ft_UI_Chs);
-	draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)继续游戏 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+	draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)继续游戏 <<", 1, 1, 0, c_orange, c_orange, c_orange, c_orange, 1);
 	if(global.gameover)
 		draw_text_transformed_color(global.cam_width/2, 650, ">> 按回车键(Enter)回主菜单 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);		
 	draw_set_halign(fa_left);
@@ -38,9 +38,9 @@ switch(room){
 		draw_set_halign(fa_center);	
 		draw_text_transformed_color(room_width/2, 200, "Crouching Tiger",2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
 		draw_set_font(ft_UI_Chs);
-		draw_text_transformed_color(room_width/2, 400, "方向键控(↑↓←→/WSAD)制玩家移动", 0.5, 0.5, 0, c_white, c_white, c_white, c_white, 1);	
-		draw_text_transformed_color(room_width/2, 500, "空格键(Space)射击及发射弹球", 0.5, 0.5, 0, c_white, c_white, c_white, c_white, 1);	
-		draw_text_transformed_color(room_width/2, 600, ">> 请按空格键(Space)开始游戏 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
+		draw_text_transformed_color(room_width/2, 400, "方向键(↑↓←→/WSAD)控制玩家移动", 0.5, 0.5, 0, c_orange, c_orange, c_orange, c_orange, 1);	
+		draw_text_transformed_color(room_width/2, 450, "空格键(Space)射击以及发射弹球", 0.5, 0.5, 0, c_orange, c_orange, c_orange, c_orange, 1);	
+		draw_text_transformed_color(room_width/2, 550, ">> 请按空格键(Space)开始游戏 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
 		draw_set_halign(fa_left);
 		draw_set_font(ft_UI_space);
 		

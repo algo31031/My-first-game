@@ -1,6 +1,7 @@
 draw_self();
 
 if(shield) draw_sprite(shieldSilver,0,x-sprite_xoffset,y);
+if(max_HP > 1) draw_sprite(swordSilver,0,x,y);
 
 if(HP < full_HP){
 	draw_sprite_ext(barHorizontal_shadow_mid,0,x-32,bbox_top-10,4,0.5,0,c_white,1);

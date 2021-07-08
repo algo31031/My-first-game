@@ -6,4 +6,4 @@ max_shield = 25;
 HP = 25;
 full_HP = 25;
 point = 50;
-coins[2] = 1;
+coins = [0,1,1];

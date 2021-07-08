@@ -1,6 +1,6 @@
 global.player_score = 0;
 global.high_score = 100;
-global.coins = 50;
+global.coins = 0;
 global.bricks_counter = {
 	total: 0,
 	red: 0,
@@ -14,7 +14,7 @@ global.pets = {
 	cat: -2,
 	cat_bw: 0,
 	dog: 0
-}
+};
 global.gameover = false;
 global.win = false;
 
@@ -30,7 +30,7 @@ global.final_boss = false;
 // brick cooldown
 global.brick_power_cd = 0;
 
-lives = 6;
+lives = 5;
 
 draw_set_font(ft_UI_space);
 randomize();
