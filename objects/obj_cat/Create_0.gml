@@ -19,4 +19,3 @@ sprites = {
 	wallgrab: cat_wallgrab_strip8	
 };
 
-if(!global.pets.cat) instance_deactivate_object(id);

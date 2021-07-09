@@ -13,21 +13,28 @@ if(global.gameover){
 		switch(room){
 			case rm_brick_init:
 				audio_play_sound(bgm_brick, 1, true);
-				break;
-		
+				break;	
 			case rm_space:
 				global.h_move = 2;
 				audio_play_sound(bgm_space, 1, true);
-				break;
-		
+				break;		
 			case rm_platform:
 				audio_play_sound(bgm_platform, 1, true);
-				break;		
-				
+				break;					
 			case rm_final:
 				audio_play_sound(bgm_final, 1, true);
 				break;	
+			case rm_pvz:
+				audio_play_sound(bgm_pvz,1,true);
+				break;
 		}
+	}
+	
+	if(keyboard_check_pressed(vk_f5)){
+		lives = 99;
+		global.gameover = false;
+		global.cheat_mode = true;
+		room_restart();
 	}
 	
 	if(keyboard_check_pressed(vk_enter)){

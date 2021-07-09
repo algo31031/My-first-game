@@ -30,7 +30,7 @@ global.final_boss = false;
 // brick cooldown
 global.brick_power_cd = 0;
 
-lives = 5;
+lives = global.cheat_mode ? 99 : 1;
 
 draw_set_font(ft_UI_space);
 randomize();

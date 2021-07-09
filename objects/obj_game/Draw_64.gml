@@ -25,6 +25,7 @@ if(global.gameover or global.win){
 	if(global.pets.dog) draw_sprite_ext(dog_idle_strip8, 0, 960, 500, -2, 2, 0, c_white, 1);
 	draw_set_halign(fa_center);
 	draw_set_font(ft_UI_Chs);
+	draw_text_transformed_color(global.cam_width/2, 550, "F5开启作弊模式", 0.35, 0.35, 0, c_white, c_white, c_white, c_white, 1);
 	draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)继续游戏 <<", 1, 1, 0, c_orange, c_orange, c_orange, c_orange, 1);
 	if(global.gameover)
 		draw_text_transformed_color(global.cam_width/2, 650, ">> 按回车键(Enter)回主菜单 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);		
@@ -46,12 +47,21 @@ switch(room){
 		
 		break;
 	case rm_pvz:
-		draw_set_halign(fa_center);	
-		//draw_text(room_width/2, 32, string(current_hour) + ":" + string(current_minute) + "." + string(current_second));
-		draw_text(room_width/2, 32, string(date_second_span(pvz_start, date_current_datetime())));
-		draw_set_halign(fa_left);
+		//draw_set_halign(fa_center);	
+		////draw_text(room_width/2, 32, string(current_hour) + ":" + string(current_minute) + "." + string(current_second));
+		//draw_text(room_width/2, 32, string(date_second_span(pvz_start, date_current_datetime())));
+		//draw_set_halign(fa_left);
 	default:
-		draw_scores();
+		if(global.cheat_mode){
+			draw_set_font(ft_UI_Chs);
+			draw_set_halign(fa_center);
+			draw_text_transformed(global.cam_width/2, 16, "作弊模式", 0.5, 0.5, 0);
+			draw_set_font(ft_UI_space);
+			draw_set_halign(fa_left);			
+		}
+		draw_set_halign(fa_right);
+		draw_text_transformed(global.cam_width-16, 16, "Score: " + string(global.player_score), 0.5, 0.5, 0);
+		draw_set_halign(fa_left);
 		
 		var _x = 48;
 		if(lives <= 5){

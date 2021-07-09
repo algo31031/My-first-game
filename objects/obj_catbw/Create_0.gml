@@ -18,5 +18,3 @@ sprites = {
 	wallclimb: bwcat_wallclimb_strip8,
 	wallgrab: bwcat_wallgrab_strip8	
 };
-
-if(!global.pets.cat_bw) instance_deactivate_object(id);
