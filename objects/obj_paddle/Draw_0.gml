@@ -11,3 +11,9 @@ if(show_arrow){
 	
 	if(arrow_span >= 15) arrow_span = 0;
 }
+
+if(array_length(trash)){
+	for (var i = 0; i < array_length(trash); ++i;){
+		draw_sprite_ext(trash[i][0],0,x+trash[i][1],trash[i][2],0.25,0.25,0,c_white,1);
+    }
+}

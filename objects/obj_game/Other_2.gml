@@ -17,6 +17,7 @@ global.pets = {
 };
 global.gameover = false;
 global.win = false;
+global.failed_counter = 0;
 
 // level switch
 global.brick_boss = false;
@@ -30,7 +31,7 @@ global.final_boss = false;
 // brick cooldown
 global.brick_power_cd = 0;
 
-lives = global.cheat_mode ? 99 : 1;
+lives = global.cheat_mode ? 99 : 5;
 
 draw_set_font(ft_UI_space);
 randomize();

@@ -13,15 +13,6 @@ function speed_up(){
 	}
 }
 
-function generate_brick_power(){
-	if(instance_exists(obj_cannon)) exit;
-	if(global.brick_power_cd > 0) exit;
-	if(irandom_range(0, 7) > 0) exit;
-	
-	global.brick_power_cd = 1*room_speed;
-	instance_create_layer(x, y, "Powers", obj_brick_power);
-	//_power.image_index = brick_powers.UFO;
-}
 
 ///@desc Used by obj_alien and brick level boss
 function shoot_the_ball(){

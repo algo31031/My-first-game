@@ -4,4 +4,4 @@ sprite_index = spr_brick;
 HP = 50;
 point = 50;
 temp_HP = 0;
-
+smiley = -1;

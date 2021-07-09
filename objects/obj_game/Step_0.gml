@@ -56,6 +56,7 @@ if(global.win){
 if(lives <= 0 and !global.gameover){
 	lives = 0;
 	global.gameover = true;
+	global.failed_counter += 1;
 	global.h_move = 0;
 	audio_stop_all();
 	audio_play_sound(bgm_gameover, 5, 0);	
@@ -99,7 +100,7 @@ switch(room){
 		break;
 		
 	case rm_platform:
-		if(!global.platform_boss and global.cam_y <= 0){
+		if(!global.platform_boss and global.cam_y <= obj_platform_boss.y){
 			global.platform_boss = true;
 			with(obj_platform_boss){
 				path_start(path_platform_boss, 3, path_action_restart, false);

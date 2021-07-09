@@ -5,3 +5,4 @@ pause = (room == rm_platform ? true : false);
 
 show_arrow = 0;
 arrow_span = 0;
+trash = [];

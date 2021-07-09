@@ -1,3 +1,8 @@
+if(array_length(other.trash)){	
+	other.trash = [];
+	part_particles_create(obj_particles.part_sys,other.x,other.y,obj_particles.part_type_explode,1);
+}
+
 if(!is_flying) exit;
 
 if(!is_extra and other.pause){

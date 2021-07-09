@@ -1,5 +1,4 @@
 if(!is_extra){
-	instance_destroy(obj_ball);
 	lives -= 1;
 	audio_play_sound(snd_die, 1, false);		
 	if(current_paddle){
