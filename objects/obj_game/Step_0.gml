@@ -9,6 +9,7 @@ if(global.gameover){
 	if(keyboard_check_pressed(vk_space)){
 		lives = 5;
 		global.gameover = false;
+		end_txt = -1;
 		instance_activate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1);
 		switch(room){
 			case rm_brick_init:
@@ -34,6 +35,7 @@ if(global.gameover){
 		lives = 99;
 		global.gameover = false;
 		global.cheat_mode = true;
+		end_txt = -1;
 		room_restart();
 	}
 	

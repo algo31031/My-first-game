@@ -1,10 +1,12 @@
 if(global.gameover or global.win){
 	draw_set_halign(fa_center);
 	draw_set_font(ft_UI_Chs);
-	if(global.gameover)
-		draw_text_transformed_color(global.cam_width/2, 150, "你被砖块打败了",2, 2, 0, c_red, c_red, c_red, c_red, 1);
-	else
-		draw_text_transformed_color(global.cam_width/2, 150, "后续关卡开发中...",2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
+	if(global.gameover){
+		if(!end_txt) end_txt = choose("你被砖块打败了","我觉得我还能再抢救一下","大侠请重新来过","从前,有一个球球...","有请下一位","F5开启作弊模式");
+		draw_text_transformed_color(global.cam_width/2, 150, end_txt,2, 2, 0, c_red, c_red, c_red, c_red, 1);
+	} else {
+		draw_text_transformed_color(global.cam_width/2, 150, "咕.咕.咕...",2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
+	}
 	draw_set_halign(fa_left);
 	draw_sprite_ext(spr_brick,0,320,288,1,1,0,c_white,1);
 	draw_sprite_ext(spr_brick,1,320,338,1,1,0,c_white,1);
