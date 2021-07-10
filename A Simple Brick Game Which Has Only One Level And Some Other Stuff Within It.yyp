@@ -544,6 +544,7 @@
     {"id":{"name":"genericItem_color_160","path":"sprites/genericItem_color_160/genericItem_color_160.yy",},"order":11,},
     {"id":{"name":"dog_bark_strip6","path":"sprites/dog_bark_strip6/dog_bark_strip6.yy",},"order":7,},
     {"id":{"name":"element_green_rectangle","path":"sprites/element_green_rectangle/element_green_rectangle.yy",},"order":1,},
+    {"id":{"name":"rm_matching","path":"rooms/rm_matching/rm_matching.yy",},"order":6,},
     {"id":{"name":"genericItem_color_156","path":"sprites/genericItem_color_156/genericItem_color_156.yy",},"order":7,},
     {"id":{"name":"bwcat_attack_strip7","path":"sprites/bwcat_attack_strip7/bwcat_attack_strip7.yy",},"order":1,},
     {"id":{"name":"spr_cute","path":"sprites/spr_cute/spr_cute.yy",},"order":5,},
@@ -604,6 +605,7 @@
     {"roomId":{"name":"rm_platform","path":"rooms/rm_platform/rm_platform.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
     {"roomId":{"name":"rm_pvz","path":"rooms/rm_pvz/rm_pvz.yy",},},
+    {"roomId":{"name":"rm_matching","path":"rooms/rm_matching/rm_matching.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

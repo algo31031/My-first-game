@@ -5,3 +5,4 @@ if(!cooldown and !clicks){
 } else if(cooldown) {
 	cooldown--; 
 }
+

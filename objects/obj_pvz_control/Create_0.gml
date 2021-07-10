@@ -10,7 +10,7 @@ shake_y_w = 0;
 mouse_icon_left = 5;
 direction_icon_left = 5;
 arrow_span = 0;
-pvz_boss_counter = 6;
+pvz_boss_counter = 3;
 
 timeline_index = tl_pvz_enemy;
 timeline_running = true;

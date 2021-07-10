@@ -2,7 +2,7 @@ if(other.locked){
 	move_bounce_all(false);
 } else {
 	if(object_get_name(other.object_index) == "obj_portal_green"){
-		audio_play_sound(snd_portal, 1, 0);
+		audio_stop_sound(snd_thrusterFire_000);
 		
 		instance_activate_object(obj_paddle);
 		instance_activate_object(obj_ball);

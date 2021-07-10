@@ -27,6 +27,8 @@ global.platform_level = false;
 global.platform_boss = false;
 global.final_level = false;
 global.final_boss = false;
+global.pvz_boss = false;
+global.matching_level = false;
 
 // brick cooldown
 global.brick_power_cd = 0;

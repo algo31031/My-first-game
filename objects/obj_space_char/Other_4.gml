@@ -1,7 +1,13 @@
 switch(room){
 	case rm_space:
-		path_start(path_space_enter, 5, path_action_stop, false);
-		alarm[0] = 1*room_speed;
+		//path_start(path_space_enter, 5, path_action_stop, false);
+		//alarm[0] = 1*room_speed;
+		speed = 2;
+		direction = 0;
+
+		with(obj_camera){
+			if(!global.h_move) global.h_move = 2;
+		}		
 		break;
 		
 	case rm_platform:

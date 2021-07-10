@@ -1,0 +1,1 @@
+draw_sprite(sprite_index,0,x+shake_x,y+shake_y);

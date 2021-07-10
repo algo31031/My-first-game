@@ -1,4 +1,13 @@
 // Inherit the parent event
+if(room == rm_pvz){
+	if(x >= 640){
+		instance_destroy();
+		part_particles_create(obj_particles.part_sys, x,y,obj_particles.part_type_portal,1);
+		audio_play_sound(snd_portal, 1, 0);			
+	}
+	exit;
+}
+
 if(HP <= 0){
 	HP = 1;
 	shield = max_shield;

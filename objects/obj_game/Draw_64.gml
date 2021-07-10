@@ -2,7 +2,7 @@ if(global.gameover or global.win){
 	draw_set_halign(fa_center);
 	draw_set_font(ft_UI_Chs);
 	if(global.gameover){
-		if(!end_txt) end_txt = choose("你被砖块打败了","我觉得我还能再抢救一下","大侠请重新来过","从前,有一个球球...","有请下一位","F5开启作弊模式");
+		if(end_txt == -1) end_txt = choose("你被砖块打败了","我觉得我还能再抢救一下","大侠请重新来过","从前,有一个球球...","有请下一位");
 		draw_text_transformed_color(global.cam_width/2, 150, end_txt,2, 2, 0, c_red, c_red, c_red, c_red, 1);
 	} else {
 		draw_text_transformed_color(global.cam_width/2, 150, "咕.咕.咕...",2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
@@ -51,10 +51,10 @@ switch(room){
 		
 		break;
 	case rm_pvz:
-		//draw_set_halign(fa_center);	
-		////draw_text(room_width/2, 32, string(current_hour) + ":" + string(current_minute) + "." + string(current_second));
-		//draw_text(room_width/2, 32, string(date_second_span(pvz_start, date_current_datetime())));
-		//draw_set_halign(fa_left);
+		draw_set_halign(fa_center);
+		//draw_text(room_width/2, 32, string(current_hour) + ":" + string(current_minute) + "." + string(current_second));
+		draw_text(room_width/2, 32, string(date_second_span(pvz_start, date_current_datetime())));
+		draw_set_halign(fa_left);
 	default:
 		if(global.cheat_mode){
 			draw_set_font(ft_UI_Chs);

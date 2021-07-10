@@ -100,7 +100,9 @@ switch(room){
 		}
 		
 		break;
-		
+	case rm_pvz:
+		if(global.matching_level) room_goto(rm_matching);
+		break;		
 	case rm_platform:
 		if(!global.platform_boss and global.cam_y <= obj_platform_boss.y){
 			global.platform_boss = true;

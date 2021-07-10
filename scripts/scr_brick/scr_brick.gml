@@ -25,3 +25,14 @@ function shoot_the_ball(){
 	}
 }
 
+function generate_coin(){
+	audio_play_sound(snd_coin,1,0);
+	var _coin = instance_create_layer(x,y,"Powers",obj_item_coin);
+	with(_coin){
+		image_index = 0;
+		direction = point_direction(x,y,global.cam_x+global.cam_width-24,global.cam_y+88);
+		speed = 15;
+		point = 1;
+		value = 1;
+	}	
+}

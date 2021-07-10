@@ -5,7 +5,7 @@ else image_index = 0;
 draw_self();
 
 if(bullet == bullets.laser){
-	draw_sprite(spr_gun,bullet_damage-1,x,y);
+	draw_sprite(spr_gun,bullet_damage-1,x+10,y);
 } else {
 	draw_sprite(spr_spaceMissiles_040,bullet_damage-1,x,y);
 }

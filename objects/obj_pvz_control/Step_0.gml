@@ -1,4 +1,7 @@
-if(pvz_boss_counter <= 0 and !alarm[0]) alarm[0] = 5*room_speed;
+if(pvz_boss_counter <= 0 and !global.pvz_boss){
+	alarm[0] = 3*room_speed;
+	global.pvz_boss = true;
+}
 
 if((keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))) and place_meeting(x, y-210, obj_pvz_block)){ 
 	y -= 210;
