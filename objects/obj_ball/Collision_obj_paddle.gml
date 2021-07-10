@@ -1,4 +1,7 @@
-if(array_length(other.trash)){	
+if(array_length(other.trash)){
+	repeat(array_length(other.trash)){
+		generate_coin();
+	}
 	other.trash = [];
 	part_particles_create(obj_particles.part_sys,other.x,other.y,obj_particles.part_type_explode,1);
 }

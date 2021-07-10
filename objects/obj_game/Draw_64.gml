@@ -30,9 +30,12 @@ if(global.gameover or global.win){
 	if(global.failed_counter > 3){
 		draw_text_transformed_color(global.cam_width/2, 550, "F5开启作弊模式", 0.35, 0.35, 0, c_white, c_white, c_white, c_white, 1);
 	}
-	draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)继续游戏 <<", 1, 1, 0, c_orange, c_orange, c_orange, c_orange, 1);
-	if(global.gameover)
+	if(global.win)
+		draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)重新开始 <<", 1, 1, 0, c_orange, c_orange, c_orange, c_orange, 1);
+	if(global.gameover){
+		draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)继续游戏 <<", 1, 1, 0, c_orange, c_orange, c_orange, c_orange, 1);
 		draw_text_transformed_color(global.cam_width/2, 650, ">> 按回车键(Enter)回主菜单 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);		
+	}
 	draw_set_halign(fa_left);
 	draw_set_font(ft_UI_space);
 }

@@ -1,1 +1,1 @@
-global.matching_level = true;
+global.win = true;
