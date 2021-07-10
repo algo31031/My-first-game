@@ -44,17 +44,14 @@ switch(room){
 		draw_set_font(ft_UI_Chs);
 		draw_text_transformed_color(room_width/2, 150, "平淡无奇的打砖块游戏",2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
 		draw_text_transformed_color(room_width/2, 400, "方向键(↑↓←→/WSAD)控制玩家移动", 0.5, 0.5, 0, c_orange, c_orange, c_orange, c_orange, 1);	
-		draw_text_transformed_color(room_width/2, 450, "空格键(Space)射击以及发射弹球", 0.5, 0.5, 0, c_orange, c_orange, c_orange, c_orange, 1);	
+		draw_text_transformed_color(room_width/2, 448, "空格键(Space)射击以及发射弹球", 0.5, 0.5, 0, c_orange, c_orange, c_orange, c_orange, 1);	
+		draw_text_transformed_color(room_width/2, 496, "数字键(1、2)切换武器", 0.5, 0.5, 0, c_orange, c_orange, c_orange, c_orange, 1);	
 		draw_text_transformed_color(room_width/2, 550, ">> 请按空格键(Space)开始游戏 <<", 1, 1, 0, c_white, c_white, c_white, c_white, 1);	
 		draw_set_halign(fa_left);
 		draw_set_font(ft_UI_space);
 		
 		break;
-	case rm_pvz:
-		draw_set_halign(fa_center);
-		//draw_text(room_width/2, 32, string(current_hour) + ":" + string(current_minute) + "." + string(current_second));
-		draw_text(room_width/2, 32, string(date_second_span(pvz_start, date_current_datetime())));
-		draw_set_halign(fa_left);
+
 	default:
 		if(global.cheat_mode){
 			draw_set_font(ft_UI_Chs);

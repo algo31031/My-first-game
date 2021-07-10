@@ -5,4 +5,4 @@ for (var i = 0; i < instance_number(obj_pvz_turret); ++i;){
 	}
 }
 
-alarm[1] = 2*room_speed;
+alarm[1] = 4*room_speed;
