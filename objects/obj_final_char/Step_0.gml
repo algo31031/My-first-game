@@ -23,9 +23,9 @@ event_inherited();
 
 shield_regeneration(10*room_speed);
 
-var _lkey = keyboard_check(vk_left) or keyboard_check_pressed(ord("A"));
-var _rkey = keyboard_check(vk_right) or keyboard_check_pressed(ord("D"));
-var _jkey = keyboard_check(vk_up) or keyboard_check_pressed(ord("W"));
+var _lkey = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var _rkey = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var _jkey = keyboard_check(vk_up) or keyboard_check(ord("W"));
 
 if(place_meeting(x, y+1, obj_block)){
 	vspd = 0;
