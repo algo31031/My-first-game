@@ -68,10 +68,10 @@ switch(room){
 		
 		break;
 	case rm_pvz:
-		draw_default_UI();	
 		draw_sprite(transparentDark36,0,global.cam_width-150, global.cam_height-180);		
 		draw_sprite(transparentDark37,0,global.cam_width-150, global.cam_height-20);		
 	case rm_space:
+		draw_default_UI();	
 		draw_sprite(transparentDark22,0,80, global.cam_height-100);		
 		draw_sprite(transparentDark23,0,220, global.cam_height-100);	
 		draw_sprite(transparentDark24,0,150, global.cam_height-180);		
