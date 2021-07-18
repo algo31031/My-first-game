@@ -43,6 +43,20 @@ if(global.gameover){
 		game_restart();
 	}
 	
+	if(keyboard_check_pressed(vk_anykey)){
+		show_debug_message(input_arr)
+		show_debug_message(cheat_arr)
+		array_push(input_arr,keyboard_lastkey);
+		while(array_length(input_arr) > 10) array_delete(input_arr,0,1);
+		if(array_equals(cheat_arr, input_arr)){
+			lives = 99;
+			global.gameover = false;
+			global.cheat_mode = true;
+			end_txt = -1;
+			room_restart();			
+		}
+	}
+	
 	exit;
 }
 

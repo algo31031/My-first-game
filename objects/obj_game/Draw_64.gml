@@ -27,8 +27,8 @@ if(global.gameover or global.win){
 	if(global.pets.cat_bw) draw_sprite_ext(bwcat_idle_strip8, 0, 960, 400, -2, 2, 0, c_white, 1);
 	if(global.pets.dog) draw_sprite_ext(dog_idle_strip8, 0, 960, 500, -2, 2, 0, c_white, 1);
 	draw_set_halign(fa_center);
-	if(global.failed_counter > 3){
-		draw_text_transformed_color(global.cam_width/2, 550, "F5开启作弊模式", 0.35, 0.35, 0, c_white, c_white, c_white, c_white, 1);
+	if(global.failed_counter >= 3){
+		draw_text_transformed_color(global.cam_width/2, 550, "上上下下左右左右BA", 0.35, 0.35, 0, c_white, c_white, c_white, c_white, 1);
 	}
 	if(global.win)
 		draw_text_transformed_color(global.cam_width/2, 600, ">> 按空格键(Space)重新开始 <<", 1, 1, 0, c_orange, c_orange, c_orange, c_orange, 1);

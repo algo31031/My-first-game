@@ -36,6 +36,8 @@ global.brick_power_cd = 0;
 lives = global.cheat_mode ? 99 : 5;
 
 end_txt = -1;
+cheat_arr = [vk_up,vk_up,vk_down,vk_down,vk_left,vk_right,vk_left,vk_right,ord("B"),ord("A")];
+input_arr = array_create(array_length(cheat_arr),noone);
 
 draw_set_font(ft_UI_space);
 randomize();
