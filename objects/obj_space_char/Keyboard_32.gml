@@ -7,7 +7,6 @@ if(!cooldown){
 	_bullet.faction = faction;
 	_bullet.bullet_damage = bullet_damage;
 	_bullet.image_index = bullet_damage - 1;
-
 }
 // secondary weapon
 if(!s_cooldown){
@@ -19,3 +18,11 @@ if(!s_cooldown){
 		_yy += 20; 
 	}
 }
+
+	
+if(bullet == bullets.missile and !m_cooldown){
+	m_cooldown = 1*room_speed;
+	repeat(bullet_damage){
+		instance_create_layer(x, y, "Bullets", obj_space_missile);
+	}
+}	

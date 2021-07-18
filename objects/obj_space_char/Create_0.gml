@@ -12,6 +12,7 @@ missile_power = 1;
 //bullet = bullets.missile;
 bullet = bullets.laser;
 s_cooldown = 0;
+m_cooldown = 0;
 invincible = true;
 shield_restroe = 0;
 move_spd = 3;

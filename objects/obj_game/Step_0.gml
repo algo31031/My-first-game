@@ -6,7 +6,7 @@ if(global.gameover){
 	global.h_move = 0;
 	global.v_move = 0;
 	
-	if(keyboard_check_pressed(vk_space)){
+	if(keyboard_check_pressed(vk_f11)){
 		lives = 5;
 		global.gameover = false;
 		end_txt = -1;
@@ -39,7 +39,7 @@ if(global.gameover){
 		room_restart();
 	}
 	
-	if(keyboard_check_pressed(vk_enter)){
+	if(keyboard_check_pressed(vk_f12)){
 		game_restart();
 	}
 	
@@ -49,7 +49,7 @@ if(global.gameover){
 if(global.win){
 	instance_deactivate_region(global.cam_x, global.cam_y, global.cam_x+global.cam_width, global.cam_y+global.cam_height,1,1);
 	audio_stop_all();	
-		if(keyboard_check_pressed(vk_space)){
+		if(keyboard_check_pressed(vk_f12)){
 			game_restart();
 		}
 	exit;
@@ -68,7 +68,7 @@ if(lives <= 0 and !global.gameover){
 
 switch(room){				
 	case rm_start:	
-		if(keyboard_check_pressed(vk_space)){
+		if(keyboard_check_pressed(vk_f11)){
 			room_goto(rm_brick_init);
 			//room_goto(rm_space);
 		}

@@ -1,15 +1,15 @@
 if(invincible) image_alpha = 1 - alarm[0]/60.0;
 
-if(show_arrow){
-	draw_sprite(arrowUp,0,x,bbox_top-30-arrow_span);
-	draw_sprite(arrowLeft,0,bbox_left-30-arrow_span,y);
-	draw_sprite(arrowRight,0,bbox_right+30+arrow_span,y);
+//if(show_arrow){
+//	draw_sprite(arrowUp,0,x,bbox_top-30-arrow_span);
+//	draw_sprite(arrowLeft,0,bbox_left-30-arrow_span,y);
+//	draw_sprite(arrowRight,0,bbox_right+30+arrow_span,y);
 	
-	arrow_span += 0.5;
-	show_arrow--;
+//	arrow_span += 0.5;
+//	show_arrow--;
 	
-	if(arrow_span >= 15) arrow_span = 0;
-}
+//	if(arrow_span >= 15) arrow_span = 0;
+//}
 
 draw_self();
 

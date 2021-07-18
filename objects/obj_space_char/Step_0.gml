@@ -20,7 +20,7 @@ if((global.cam_x + global.cam_width) >= room_width){
 
 // movement control
 if(keyboard_check(vk_left) or keyboard_check(ord("A"))) x -= move_spd+global.h_move;
-if(keyboard_check(vk_right) or keyboard_check(ord("S"))) x += move_spd;
+if(keyboard_check(vk_right) or keyboard_check(ord("D"))) x += move_spd;
 if(keyboard_check(vk_up) or keyboard_check(ord("W"))) y -= move_spd;
 if(keyboard_check(vk_down) or keyboard_check(ord("S"))) y += move_spd;
 
@@ -34,4 +34,8 @@ shield_regeneration(10*room_speed);
 if(s_cooldown){
 	s_cooldown--;
 	if(s_cooldown < 0) s_cooldown = 0;
+}
+if(m_cooldown){
+	m_cooldown--;
+	if(m_cooldown < 0) m_cooldown = 0;
 }
